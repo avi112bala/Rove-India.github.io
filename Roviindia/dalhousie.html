@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>d</span>
+                    <span>a</span>
+                    <span>l</span>
+                    <span>h</span>
+                    <span>o</span>
+                    <span>u</span>
+                    <span>s</span>
+                    <span>i</span>
+                    <span>e</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/dal1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Panchpula</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                                Surrounded by a cover of green pine and deodar trees, Panchpula is a popular picnic spot in Dalhousie, located at a distance of 3.5 km from Gandhi Chowk in Dalhousie. It is best known for Saptdhara Waterfall, the starting point of the Ganji Pahari trek and activities like Ziplining, and Burma Bridge.A Samadhi (monument) is built near Panchpula in memory of the great revolutionary, Sardar Ajit Singh (Uncle of Martyr Bhagat Singh), who breathed his last here.
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/dal2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Khajjiar</h4>
+                            <p>
+
+                                Often referred to as 'mini-Switzerland of India', Khajjiar is a small town located close (20km) to Dalhousie and is great for a day or overnight trip. Khajjiar is known for its picture perfect grassy meadows.There is a small lake in the middle of the meadow and you could enjoy the scenery by yourself or take part in some of the adventure sports including paragliding, zorbing, and horse-riding.Located at an altitude of 6,500 feet, Khajjiar is also known for its nine-hole golf course which is nestled in the midst of lush greenery and a breathtaking landscape. However, the way to Khajjiar can be closed sometimes during winters because of heavy snowfall. Visit Kalatop Wildlife Sanctuary on your way from Dalhousie to Khajjiar.
+                                <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/dal3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kalatop Wildlife Sanctuary</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>Thick deodar foliage, a plethora of wildlife, snowcapped mountains, carpets of verdant grasslands and easy on the eye streams of fresh water make up the Kalatop Wildlife Sanctuary. Also called the Kalatop Khajjiar Sanctuary, it is located in the picturesque hilly Chamba district of Himachal Pradesh.The name Kalatop means 'black cap', which refers to the thick, black forest cover on the highest hilltop in the sanctuary. Situated a few kilometres away from the Chamba dam and Chamera reservoir on river Ravi, it is known to be rich in flora and fauna. Hundreds of small freshwater streams flow into the Ravi river north of the sanctuary.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/dal4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Satdhara Falls</h4>
+                            <p>
+                            The stunning Satdhara Falls is situated in Dalhousie, Himachal Pradesh. It is surrounded by fantastic views of the Chamba valley - with snow-covered ranges and fresh, green pine and deodar trees. 'Satdhara' means seven springs. This waterfall brings together the waters of seven beautiful springs - their meeting point being 2036masl, cascading magnanimously in unison. The water here is said to contain mica, which has medicinal properties to cure skin diseases
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/dal5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>St. Patricks Church</h4>
+                            <p>
+                                An old-world charm, St Patricks Church is one of the largest churches in Dalhousie. Located near Balloon falls,Dalhousie Cantonment, the church is located 2 km away from the main bus stand on Military Hospital Road. Owing to its British architecture, it is known to have been established by a group of British army officers in 1909. Hosting over 300 people every Sunday, the dome-shaped shrine attracts not just the devotees but also many history buffs and architecture lovers
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/dal6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Ganji Pahari Trek</h4>
+                            <p>Ganji Pahari is a scenic hill located near Dalhousie. The 1-2 hour trek to Ganji Pahari starts from Panchpula (about 3.5km). The name Ganji Pahari was derived from its salient feature which is the complete absence of flora on the hill-'Ganji' meaning Bald in the local language, and 'Pahari' meaning Hill. During winters, the same terrain is covered in a thick coat of snow.
+                            A tour to Ganji Pahari can also be accompanied by a guide whom tourists can hire from Dalhousie but it is not mandatory.People trek to Ganji Pahari for the sunset and sunrise. There a handful of places to stay on top and camping is also an option, but the bookings have to be made in advance</p>
+                        </div>
+                    </div>
+                </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

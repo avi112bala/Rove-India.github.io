@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4{
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>                                                               
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">    
+                <span>W</span>
+                <span>a</span>
+                <span>y</span>
+                <span>a</span>
+                <span>n</span>
+                <span>a</span>
+                <span>d</span>
+              </h2> 
+               
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/wa1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Banasura Sagar Dam</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        Lying in the lap of the Banasura hills in the Wayanad district is the picturesque Banasura Sagar dam. Banasura Dam is 
+                        the largest earthen dam in the country and the second-largest in Asia. The view of the sprawling reservoir from the top
+                        of the dam is breathtaking. Adventures like speed boating are readily available, and a trek up to the Banasura Peak is 
+                        filled with streams, diverse flora, fauna, lush tropical green and majestic waterfalls. An earthen dam, also known as an
+                        embankment dam is created by placing mounds of clay, sand, rock or soil. The view of Banasura Lake from the top of the 
+                        hill is mesmerising.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/wa2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Wayanad Wildlife Sanctuary</h4>
+                        <p>
+                        Wayanad Wildlife Sanctuary is the second largest wildlife sanctuary in Kerala and comprises of rare as well as 
+                        endangered species of both flora and fauna. It is surrounded by the protected areas of Mudumalai in Tamil Nadu as well 
+                        as Nagarhole and Bandipur in Karnataka. Founded in the year 1973, the wildlife sanctuary is an integral part of the 
+                        Nilgiri Biosphere Reserve which was the first biosphere out of the 14 present in India. The sanctuary is spread over an 
+                        area of 345 square km and comprises of two parts namely Upper Wayanad and Lower Wayanad. Eucalyptus, as well as bamboo 
+                        trees, are grown in the region.
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/wa3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Stay in a Treehouse</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                        One of the best things to do in Kerala is to stay in a treehouse. And there is no better place in the state than Wayanad.
+                    You can find several packages in the city where you can stay in the pretty wooden house and as part of the package, you can 
+                    also enjoy a bonfire and indulge in activities like rock climbing, rappelling, nature walks etc.        
+                             
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/wa4.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Soochipara Falls</h4>
+                        <p>
+                        Also known as Sentinel Rock Waterfalls, Soochipara Falls is a three-tiered waterfall situated in Vellarimala, Wayanad. 
+                        Surrounded by deciduous, evergreen and montane forests, this waterfall is regarded as one of the best waterfalls. The 
+                        drive from Meppadi to Sentinel Rock Waterfalls provides visitors with scenic views of some of the best tea estates in 
+                        Wayanad. This enchanting waterfall is 200 meters high that also offer a cliff face, ideal for rock climbing. Also, since
+                        the water falling from the waterfall forms a large pool, one can enjoy swimming and bathing in it. The water falling 
+                        from Soochipara later joins Chulika River aka Chaliyar River after hills from Kerela and Tamil Nadu.            
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/wa5.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Vythiri</h4>
+                        <p>
+                    Vythiri is a small town located in the Wayanad district, surrounded by lush rainforest. It is known for its spice plantations and 
+                    indigenous tribal communities. It is a tourist favourite for adventure sports, trekking, and relaxing amidst the serene beauty of the town.
+                    Vythiri receives the highest rainfall in the district and is recorded as receiving the second-highest amount of rain in the world. The 
+                    months of June-September receive the highest rainfalls. Because of its height, at 700 meters above sea level, this is one of the colder 
+                    regions in Wayanad and is an all-weather destination. Vythiri houses the Pookot lake; wherein one can enjoy a relaxing boat ride and 
+                    kayaking. Trekking a tourist favourite till the top of Lakkidi, a village 5 kms from Vythiri, from where one can enjoy the breathtakingly
+                     stunning view of the valley below.    
+                        </p>
+                    </div>
+
+                </div>
+           
+            <div class="box">
+                <img src="images/wa6.jpg" alt="">
+                <div class="content">
+                    <h4> <i class="fas fa-map-marker-alt"></i>Koottamunu Glass Temple</h4>
+                    <p>
+                    An important pilgrimage for Jains, Koottamunu Glass Temple was created to honor the famous Jain saint Parshawanatha Swami.
+                    Situated 22 km from Kalpetta on the hill side Vellarimala, devotees come here to pay their respect and meditate. The 
+                    interior of the temple is quite tantalizing decorated with mirrors reflecting the image of the idols inside the main temple.
+                    A perfect getaway from all the usual sightseeing in Wayanad, this temple is located in the hills of Vellarimala. The Glass 
+                    temple truly showcase its name since it is filled with thousands of Glass mirrors, and is perfect for an awe-inspiring 
+                    experience. It is a photographer delight since the temple is beautiful and unique in its own sense, nestled in the green 
+                    hills it is a delight for nature lover as well. There is no entry fee to enter into the premises, to give you a delightful 
+                    experience. Located 20 km away from the Kalpetta, you can reach here via local taxi or cabs. The best time to visit here is
+                     from October to May.                 
+                    </p>
+                    <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                </div>
+            </div>
+
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

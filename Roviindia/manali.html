@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>m</span>
+                    <span>a</span>
+                    <span>n</span>
+                    <span>a</span>
+                    <span>l</span>
+                    <span>i</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/manali1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Solang Valley</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                            When heading to Manali for a vacation, two absolutely essential destinations in the itinerary are Rohtang and Solang Valley. 14 kilometres to the north west of the main town of Manali, Solang Valley is one of the most popular tourist destinations in Himachal Pradesh. Situated on the way to Rohtang from Manali, every year the valley welcomes tourists in huge numbers. A favourite for adventure enthusiasts, parachuting to paragliding, horse riding to driving mini-open jeeps specially available for tourists of all age groups, Solang Valley has it all.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/manali2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Jogini Waterfall</h4>
+                            <p>
+
+                            Jogini Waterfall is located in the beautiful Valley of Manali, about 3 kilometres away from the bustling town and around 2 kilometres away from the famous Vashisht Temple. What makes it a popular tourist spot is the trek from Vashisht Temple, through pine trees and orchards, to the mesmerising Jogini Waterfalls cascading from a height of 160 feet. The trekkers are enchanted as they cross several smaller streams with a dazzling view of River Beas and the snow-dusted peaks of Rohtang. A complete treat for nature lovers and adventure seekers, the Jogini Waterfall must be visited when
+                            exploring the breathtaking valley of Manali.
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/manali3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Hidimba Temple</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>Located amidst the snow-covered hills of Manali, the Hadimba Temple is a unique shrine dedicated to Hidimba Devi, who was the wife of Bhima and mother of Ghatothkach. Surrounded by gorgeous cedar forests, this beautiful shrine is built on a rock which is believed to be in the image of goddess Hidimba herself.Locally known as Dhungari Temple, the construction style of the Hidimba Devi temple is entirely different from that of any of the other temples, with its wooden doorways, walls, and cone-shaped roof. This temple is a fitting dedication to its presiding deity Hadimba.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/manali4.png">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Rohtang Pass</h4>
+                            <p>
+                                Located at a distance of just 51 kilometres from Manali, Rohtang Pass can be reached only by road. The pass is located at a massive height of 3978 metres on Manali- Keylong road. When planning a trip to Manali, a day off to the vista point of Rohtang Pass is the ultimate and almost essential attraction of the itinerary. Owing to its splendid natural beauty,Rohtang Pass is a favourite among the community of film directors. Many blockbusters ranging from 'Jab We Met' to 'YehJawani Hai Deewani' have been shot here. A peculiar fact behind the name of the place is that it was named so because a number of people working in CBRE died whilst trying to cross this treacherous stretch.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/manali5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Sethan Valley</h4>
+                            <p>
+                            Sethan is a quaint village in Himachal Pradesh, approximately 12 km from Manali. This Buddhist that oversees the Dhauladhar range. Covered in snow during winters, Sethan Valley is a great place to try out skiing and snowboarding.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/manali6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kullu</h4>
+                            <p>
+                            Kullu, a popular tourist destination in Himachal Pradesh is located on the banks of the Beas river. Kullu is known for its Dusshera Festival, ancient temples, and rafting. Kullu is generally coupled with its sister town Manali which is at a much higher altitude and provides more scenic views of snow-capped mountains. Kullu is also home to Bhuntar airport and bus junction and is used as the base town to reach Manikaran, Kasol, Malana,Naggar. Kullu also has few important temples like the Raghunath Temple and Jagannath Devi Temple. There are many treks that also originate from this area include the Bijli Mahadev Temple Trek, Parvati Valley Trek, etc.
+                    </div>
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

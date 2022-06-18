@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box video {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">
+                        <span>L</span>
+                        <span>u</span>
+                        <span>d</span>
+                        <span>h</span>
+                        <span>i</span>
+                        <span>a</span>
+                        <span>n</span>
+                        <span>a</span>
+                </h2>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/ludhiana1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Lodhi Fort</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                                Lodhi Fort is one of the forts in the vicinity of Ludhiana in Punjab. Locally known as
+                                Purana Qila or Old Fort, it is a grand structure which now lies in ruins due to poor
+                                maintenance. The fort stands on a large piece of land now encroached from all sides.
+                                What was once the gateway to Sikander Lodhi's empire and the pride of Maharaja Ranjit
+                                Singh, now lies forgotten and in ruins. Surprisingly, a large percent of the local
+                                population is not even aware of the whereabouts of this fort.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/ludhiana2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Punjab Agriculture University Museum</h4>
+                            <p>
+                                The Punjab Agriculture University Museum on the outskirts of Ludhiana, Punjab, displays
+                                artifacts from the various era of rural Punjab. The museum which was highly inspired by
+                                the open-air museum in Copenhagen is an excellent insight into traditional Punjab. It
+                                resembles the traditional houses in rural Punjab with long paths flanked by water
+                                channels on either side. The Museum is a hybrid of the agricultural and cultural
+                                portrayal of Punjab where on can visit the goat farm, cow farm, and horse farm. The
+                                models of miniature mountains, rivers and water reservoirs are the crowd pleasers.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ludhiana3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Nehru Rose Garden</h4>
+            
+
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                                Nehru Rose Garden is a beautifully landscaped garden in the heart of the city Ludhiana.
+                                Sprawling over an area 27 acres,this popular tourist attraction is home to over 17000
+                                plants and 1600 varieties of roses. The vast lawns are perfect picnic spot with water
+                                fountains around it. Every night the fountains are illuminated with colorful lights and
+                                music.Although being one of the oldest and largest leisure spots in Ludhiana,
+                                established in the year 1967, it's the most verdure spaces in the vicinity.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/L4.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Maharaja Ranjit Singh Museum</h4>
+                            <p>
+                                With more than twelve galleries catering to subjects like the Kargil War and Ancient
+                                History, the Maharaja Ranjit Singh
+                                War Museum contains an extensive memoir of India's past.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                    <img src="images/L5.jpg" alt="">
+                           
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Hardy's World Amusement Park</h4>
+                            <p>
+                                Hardy's world amusement park is the most sorted out places in Ludhiana, Punjab. This
+                                water-themed park gets your
+                                adrenaline pumped up with over 20 exhilarating rides like the roller coaster, sun &
+                                moon, pendulum and motorcycle.
+                                Situated 7 km away from Ludhiana, it is the most significant water-themed park in
+                                Punjab. It's nestled over a large area
+                                of parkland on the Ludhiana - Jalandhar Highway. It's a frolic place with mostly wave
+                                pools and water slides around the
+                                place.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                    <img src="images/L6.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Pavillion Mall</h4>
+                            <p>
+                                Pavilion mall was built and developed by Bharti Realty Ltd, at the center of fountain
+                                chowk in Ludhiana city of Punjab.
+                                The complex comprises an approximate 500,000 sq.ft. of leisure and shopping facilities,
+                                over 100 premium retail units
+                                that includes a 17,000 sq.ft food court. With a plethora of high selling international
+                                brands as well as the national
+                                products and a wholesale-retail mix of supermarket, department stores, seven-screen
+                                multiplex, food court, kids zone and
+                                restaurants, the mall is the pride of one of the most affluent cities in India -
+                                Ludhiana.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

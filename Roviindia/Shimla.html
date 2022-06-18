@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>S</span>
+                    <span>h</span>
+                    <span>i</span>
+                    <span>m</span>
+                    <span>l</span>
+                    <span>a</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/sim1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>The Ridge</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                                Located in the heart of the 'British Summer Capital' - Shimla, The Ridge is the most photographed wide-open street located on the side of Shimla Mall Road. The Ridge has everything, from shops selling some exclusive artefacts to the spectacular view of the snow-capped mountain ranges. It is famous for a lot of things, but best known for shopping and for being the social hub of the city. Shimla's rich past is evident from the Gothic buildings standing in this part of
+                                the town.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/sim2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Mall Road</h4>
+                            <p>
+
+                                The Mall Road in Shimla, located in the heart of the town, is the main street that is lined up with a myriad of restaurants, clubs, banks, shops, post offices and tourist offices. At the same time, the place boasts of the other exciting attractions that it houses, such as the Scandal Point and Kali Bari Temple. One of the busiest and more commercial areas of Shimla till date, this stretch is a mini-world in itself. The Shimla Mall Road is the one stretch,that truly celebrates the spirit of the hilltown, its tourist rush and valleys and hills covered with houses and hotels.The charm and beauty of the Mall Road can be enjoyed by groups of friends, families and honeymooners alike. </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/sim3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kalka Shimla Toy Train</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>The Kalka to Shimla route is best travelled by way of the toy train that runs on a narrow-gauge track and is known for its dramatic views of the hills and surrounding villages. The historic Kalka Shimla Toy train is part of the UNESCO World Heritage List and takes individuals on a ride amongst vast green hills and deodar and pine forests.The journey was carved through the abundance of nature in Himachal Pradesh during the British rule due to which the Kalka Shimla Toy toy train is bound to take you back to a completely different era in history and through one of the most scenic railway journeys in India. The 5 and a half-hour toy train journey provides special services and is must-do
+                            when visiting the mountainside of the North
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/sim4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Green Valley</h4>
+                            <p>
+                            The Green Valley is a beautiful and breathtaking mountain range that falls on the way to Kufri from Shimla. The Green Valley is surrounded by verdant hills on all sides covered with thick pine and deodar forests. It is not uncommon to sight some Yaks wandering and grazing around in the valley. The place is undeveloped for tourism, nevertheless, it continues to be a crowd puller and capture the attention of tourists with its dense deodar and pine trees that line the majestic hills. Rare animals are also sighted here at times. The Green Valley, thanks to its beauty and grace, has also featured in numerous Bollywood movies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/sim5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Chail </h4>
+                            <p>
+                                Chail is a quiet hill station close (44km) to Shimla, known for the world's highest cricket ground and a heritage hotel,Chail Palace. Surrounded by pine and deodar trees, Chail is located at an altitude of 2,250m above sea level.The former summer capital of Patiala, Chail was built by the former Maharaja of Patiala after he was banished from Shimla (he eloped with the daughter of then commander-in-chief of the British Army, Lord Kitchner). Since its foundation in the year 1893, Chail has been an attraction for tourists seeking a vacation with the beauty of Shivalik ranges. Three hillocks - Pandewa, Rajgarh and Sadh Tibba comprise the tourist town of Chail.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/sim6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Skiing in Kufri</h4>
+                            <p>
+                                Kufri, the winter sports capital of Shimla, leaves each and every visitor splendid with its beautiful white cover of snow. It is a skier's paradise. From the first snowfall of the year to the time the snow melts it is flocked by hundreds of skiers. Skiing is Kufri's primary allure. The slopes, the heights, and the snowy carpet it offers are the most adventurous platforms for skiing. The thick cover of snow is perfect for hosting the adventurous sport.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>                                                               
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">    
+                <span>A</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>p</span>
+                <span>p</span>
+                <span>e</span>
+                <span>y</span>
+              </h2> 
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/all1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Houseboats in Alleppey</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        A vacation to Kerala is incomplete without spending some relaxing time in the fantastic backwaters of Alleppey.You can 
+                        sit back and relax as you enjoy the magnificent setting of beautiful coconut fringed waters, paddy fields and lovely 
+                        sights of the human-made islands. A houseboat experience is truly the best of both worlds as you enjoy the luxury style
+                        treatment of comfortable interiors and delicious food to make your experience memorable and worthwhile.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/all2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Marari Beach</h4>
+                        <p>
+                        One of the great delights of the Malabar Coast, the Marari Beach is an idyllic serene beach. About 11 km from the city 
+                        of Alleppey, this beach is a hotspot for fishing activity, deriving its name from the local fishing village Mararikulam.
+                     Visiting in August gives tourists the exclusive opportunity to view Snake Boat races across the waters. The serenity and 
+                quietude on the beach are beyond description, so much so that Marari Beach has been enlisted among the top five hammock beaches
+                 of the world by National Geographic Survey.
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/all3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Ambalappuzha Sree Krishna Temple</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                        Ambalapuzha Sree Krishna Temple is a Hindu temple dedicated to Lord Krishna situated in Alappuzha district. Built-in the
+                        traditional Kerala style architectural pattern, the temple is famous for its delicious rice pudding prepared in sweet 
+                        milk, popularly known as Pal Payasam.Also called as the ‘Dwarka of the South’, the temple is believed to have been built
+                        between 15th - 17th AD by the local king Chembakkassery Pooradam Thirunal Devanarayanan Thampuran. The main deity 
+                        presiding the temple called Parthasarathi (another name for Lord Krishna) is carved out of black granite stone and 
+                        carries the sacred conch (shankh) in the left hand and a whip in the right.
+                             
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/all4.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Thottappally Beach</h4>
+                        <p>
+                    Famed through a celebrated novel and movie “Chemmeen”, Thottappally Beach is a quiet escape in the village. It an active
+                    fishing harbour that draws locals every day. The Thottappally Spillway located nearby is also quite an attraction. It
+                    helps separate the freshwater of the Thottappally Lake and the saline water at the mouth of the river that drains into
+                    the Arabian Sea.
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/all5.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Kuttanad</h4>
+                        <p>
+                         Kuttanad is a region covering a large part of Alappuzha and some of Kottayam district, the heart of the backwaters of 
+                         Kerala. Kuttanad is the 'rice bowl of Kerala', being home to lush green rice fields spread extensively, divided by 
+                         dykes. Travelling through this secluded alcove of nature will give you a feel of traditional countryside life of Kerala.
+                        A special peculiarity of this place is its geography. It lies around 2 metres below the main sea level, making it the 
+                        lowest altitude place in the country.In these lowlands, Kerala produces large portions of the everyday meal on reclaimed
+                         lands, split up by many small and big rivers and creeks.
+                        </p>
+                    </div>
+
+                </div>
+           
+            <div class="box">
+                <img src="images/all6.jpg" alt="">
+                <div class="content">
+                    <h4> <i class="fas fa-map-marker-alt"></i>Thaikal Beach</h4>
+                    <p>
+                    Located in Cherthala, north of Alleppey, Thaickal Beach is a wide sandy beach known for its serene atmosphere and beautiful 
+                    sunset. Apart from the narrow roads, which might be a hassle to park your vehicle, the beach is easily accessible by road. 
+                    Thaikal beach isn't too crowded; you'll mostly find fishers and locals; hence, there are no lifeguards or other facilities;
+                     you'll need to walk ahead for 2 kms to find local shops and stores. A day's tour to the beach and Arthunkkal church in 
+                     Cherthala will be a good experience.
+                    </p>
+                    <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                </div>
+            </div>
+
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

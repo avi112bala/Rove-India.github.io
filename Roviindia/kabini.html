@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>K</span>
+                    <span>a</span>
+                    <span>b</span>
+                    <span>i</span>
+                    <span>n</span>
+                    <span>i</span>
+                    
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/kab1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kabini River: Spend A Quaint Time</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                             Another one on the list of tourist places in Kabini is a famous river. Kabini River is a major source for boating 
+                             along the backwaters for an absolute dreamlike experience. Boating down the Kabini River is a treat for eyes with 
+                             jaw-dropping scenic views in the backdrop. The visual sight of a few animals strolling around the forest, the 
+                             changing hues in the skies and the birds flying back to their nests is absolutely surreal.
+                             The soothing sound of the gleaming waters accompanied with the refreshing views makes boating in Kabini River a 
+                             perfect itinerary amongst travellers looking for a laid-back evening. Kabini River is indeed one of the best places
+                              to visit in Kabini Karnataka.        
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/kab2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kabini Wildlife Sanctuary</h4>
+                            <p>
+                            Kabini Wildlife Sanctuary is a gift to nature and animal lovers who want to experience the rare species of flora 
+                            and fauna. It is one of the other best places to see in Kabini. Nestled on the banks of Kabini River, this sanctuary
+                             with awe-inspiring diversity should definitely be on you travel itinerary. Spread across 55 acres of lush greenery,
+                              this wildlife shelter is an essential part of Nagarhole National Park and is known for housing around 250 species 
+                              of birds.
+                            The presence of the critically endangered oriental white-backed vulture, crested hawk eagles and Malabar pied 
+                            hornbills excites many tourists. One of the best ways to explore Kabini Wildlife Sanctuary and spot different 
+                            species of animals is via Jungle Safari.         
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kab3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Rameshwara Temple</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                             Rameshwara Temple is one of the other best places to visit in Kabini. Located on the banks of the Lakshmana Tirtha
+                              River, the temple has Lord Shiva as its idol. It is visited by a large number of devotees on the occasion of 
+                              Shivaratri. Make sure to visit this famous holy place on your trip to Kabini.        
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kab4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Jungle Safari</h4>
+                            <p>
+                            A jungle safari through the Kabini region of the Nagarhole National Park will bring you to the heart of the dense 
+                            foliage where some of the most majestic mammals of Asia live. You can spot herds of elephants, spotted deer, Indian
+                             Gaur, wild boar, sambar deer, tigers and even black leopards on a safari through Kabini. Apart from the fauna, the
+                            landscape itself is a spectacular one. The riotous green foliage grows unchecked in these parts of the forest and 
+                            offers a pleasant contrast to the city life. There are also a number of streams that pass through the wilderness, 
+                            not only attracting more animals but also creating ideal photo opportunities.        
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/kab5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Stay at Wildlife Resorts</h4>
+                            <p>
+                            The picturesque surroundings and uninhibited reign of nature, make Kabini a hub of wildlife resorts and lodges. You
+                             can book a lodge bang in the heart of the forest like the Kaav Safari lodge or choose to stay by the banks of a 
+                             river and book Kabini Springs Resort.  If you are interested in history, then you might want to stay at Kabini 
+                             River Lodge as it once served as the hunting headquarters for the Maharaja of Mysore. For a truly luxurious 
+                             experience in the wilderness, you can stay at Evolve Back Kabini or experience a truly rural experience at Orange 
+                             County Kabini’s wildlife resorts are made to cater to a variety of guests.        
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kab6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kabini Dam</h4>
+                            <p>
+                            The Kabini Dam sits on top of the Kabini River and has today become a major picnic destination for locals and 
+                            tourists alike. The water collected in the reservoir offers dramatic views which are elevated by the surrounding 
+                            jungles. You can sit at the dam site and see colourful birds flying in and out of the tree canopies and animals 
+                            grazing on the edges of the forest. The waters of the dam also offer excellent opportunities to enjoy colourful 
+                            vistas of the sun as it sets into the horizon. Sitting at the Kabini Dam and enjoying a packed picnic with your 
+                            family is surely a fun thing to do in Kabini.       
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </header>
+</body>
+
+</html>

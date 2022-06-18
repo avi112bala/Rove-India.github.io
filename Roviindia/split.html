@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>s</span>
+                    <span>p</span>
+                    <span>i</span>
+                    <span>t</span>
+                    <span>i</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/spi1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Chandratal Lake</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                                Chandratal Lake is often referred to as one of the most beautiful lakes located at an altitude of about 4300 m in the mighty Himalayas. The stunning lake is situated on the Samudra Tapu plateau in the Lahaul region of the Lahaul and Spiti district and is the source of the Chandra River. The name "Chandra Taal" (Lake of the Moon) comes from its crescent shape. This lake is also one of two high-altitude wetlands of India that have been designated as Ramsar sites. Once a tentative residence for Tibetan traders travelling to Spiti and the Kullu valley, it attracts thousands of adventure enthusiasts.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/spi2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Key Monastery</h4>
+                            <p>
+
+                                The Key Monastery is a famous Tibetan Buddhist monastery in the Lahaul and Spiti District of India. Located at an altitude of 4,166 metres above sea level, the monastery is very close to the Spiti River in the Spiti Valley of Himachal Pradesh in India. Also known as the Kye Monastery and Ki Monastery, it is believed to have been founded by Dromton, who was a student of the famous teacher Atisha in the 11th century. It enshrines Buddha idols in the Dhyana position and has
+                                a collection of ancient books and murals.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/spi3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kunzum Pass</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>Kunzum Pass or Kunzum La, as it is called by locals, is one of the highest motorable mountain passes of India, located at an altitude of 4,551m above mean sea level. It serves as a gateway to the beautiful Spiti valley Via Kullu and Lahaul. It lies on the eastern Kunzum Range of the Himalayas and is at a distance of 122 km from Manali. Kunzum Lake offers an incredible 360-degree view of Bara-vista of Chandrabhaga Range and a spectacular view of the Spiti valley. This enthralling view makes Kunzum Pass a photographer's dream.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/spi4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Pin Valley National Park</h4>
+                            <p>
+                                Set amidst semi-frozen rivers in the Pin Valley, the Pin Valley National Park is situated in the Cold Desert Biosphere Reserve situated in the Lahaul and Spiti District of Himachal Pradesh. The elevation of the park ranges from about 3,500 metres near Ka Dogri to more than 6,000 metres at its pinnacle. One of the fascinating facilities of its kind, the Pin Valley National Park is home National Park is most famous for its incredible trek which is a delight for all its visitors. It snows for the most part of the year rendering the trek a thrilling and adventurous expedition. However, make sure you obtain the required permits. Also, foreign nations are not allowed inside the park.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/spi5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Tabo Monastery</h4>
+                            <p>
+                            Standing tall and strong at a dizzying height of 10,000 feet, the Tabo Monastery is one of the oldest monasteries located in the Tabo Village of Spiti Valley. In fact, it is the oldest monastery in India and the Himalayas that has been functioning continuously since its inception. This alluring monastery is renowned as the 'Ajanta of the Himalayas'.This is because the walls of the monastery are decorated with fascinating murals and ancient paintings, much like the Ajanta Caves in Maharashtra.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/spi6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Dhankar Lake</h4>
+                            <p>
+                                At a distance of 5 km from the Dhankar monastery that sits dangerously on a cliff, lies the Dhankar lake on the other side of the mountain. It takes about an hour to reach the lake after following a well marked trail from the monastery. If you spend enough time at the lake, you can see the sky change colors and reflect on the crystal-like lake, making it more spell binding each time, within a span of just a few hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

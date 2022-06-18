@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>M</span>
+                    <span>a</span>
+                    <span>n</span>
+                    <span>g</span>
+                    <span>a</span>
+                    <span>l</span>
+                    <span>o</span>
+                    <span>r</span>
+                    <span>e</span>
+                    
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/man1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Panambur Beach</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                            Panambur Beach is located at a distance of 13 km from Mangalore to the south of Mangalore port. Every year it is 
+                            visited by hordes of tourists and locals as it hosts several events like boat racing, kite festival and sand 
+                            sculptures competitions. Despite a massive footfall, it is one of the cleanest beaches one can come across in the 
+                            Western coastline of India. The name of the beach has been derived from 'Panam' meaning money and 'ur' meaning place.
+                            It is the first beach in the country which is wholly owned by a private enterprise, i.e. the Panambur Beach Tourism 
+                            Development Project. The motive is to educate the masses about the efficiency of keeping beaches clean.         
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/man2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kudroli Temple</h4>
+                            <p>
+                            This temple was consecrated by Sri Narayana Guru for the Billava community in 1912, who were prohibited entry into 
+                            any other temple in the area. The deity in this temple is Gokarnanatheshwara, Lord Shiva. The surrounding temples
+                             and the main temple itself are built in Tamil Nadu style, decorated with murals showing various mythological 
+                             legends. The temple has a massive compound with marble flooring throughout and many fully-equipped air-conditioned 
+                             marriage halls. During the time of Dasera, the temple is lit to the grandeur and the entire Kudroli road is laden
+                              with stalls selling food and souvenirs.           
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/man3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Tannirbhavi Beach
+                            </h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                            Tannirbhavi Beach is one of the popular beaches in the city. The coastline with golden sand and cool, fresh air is 
+                            rejuvenating, and people are drawn to the natural beauty of the location. Proper seats and other facilities make 
+                            the beach a frequently visited attraction, and it is crowded often on weekends and public holidays. Entering the 
+                            sea is not advisable, but one can try their hand at one of the water sports at the beach. There are lifeguards to 
+                            keep an eye and rescue in case of an accident, however, visitors are advised to be careful while entering the water. 
+                            The beach only lately gained a lot of popularity with the installation of modern facilities like proper washrooms, 
+                            parking spaces, lifeguards and several eatery stalls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/man4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>New Mangalore Port</h4>
+                            <p>
+                            The New Mangalore Port situated in Panambur, Mangalore in the state of Karnataka is run and governed new Mangalore 
+                            trust. It is one of the most major ports located in Karnataka and is the seventh largest port in the country. It was
+                             inaugurated on 4th May 1974 by the then prime minister of India, Indira Gandhi. The port lies in Panambur that is,
+                              the west coast of India. It lies to the north of Phalguni River to the Arabian Sea.
+                            New Mangalore Port is a remote area of all the coasts located in Karnataka and Kerala. Being the seventh largest 
+                            port in the country, it is a place where some of the most primary commodities are imported as well as exported.       
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/man5.JPG">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>St Aloysius Chapel</h4>
+                            <p>
+                            St Aloysius Chapel is a Catholic Church and a famous attraction set atop the Lighthouse Hill and has a regal look 
+                            which is breathtaking right from the entrance. The unique wall paintings of St. Aloysius Chapel are stunning and 
+                            attract visitors in large numbers.These paintings were painted in 1899 by Antonio Moscheni, an Italian Jesuit when 
+                            he visited Mangalore on a mission in 1878. What we get to see are mostly restored paintings that have suffered 
+                            damage over time but the charm and authenticity of St Aloysius Chapel are still very well maintained.     
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/man6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Ullal Beach</h4>
+                            <p>
+                         Ullal beach is a prime tourist attraction in the city. Located in Ullal, a small fishing village only 12 kms away from
+                          the city centre of the bustling city of Mangalore, Ullal beach mesmerises its visitors with a panoramic view of a long
+                           coastline and the majestic Arabian Sea. The entire coast of the serene Ullal Beach is flanked with tall lush 
+                           casuarinas and dense palm trees that make it look like a scene from a beautiful painting. In fact, the beach is set 
+                           in no less than 14-acre casuarina groves! These trees sway in the calming breeze at the beach and instil a sense of
+                            tranquillity within you.The waters of the beach are very clean and invite you to take a dip.         
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>B</span>
+                    <span>a</span>
+                    <span>n</span>
+                    <span>g</span>
+                    <span>a</span>
+                    <span>l</span>
+                    <span>o</span>
+                    <span>r</span>
+                    <span>e</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/ban1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>ISKCON Temple Bangalore</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                        ISKCON Sri Radha Krishna temple was inaugurated in the year 1997. It is not just a temple, but a cultural complex
+                        housing the temples dedicated to the Deities of Sri Sri Radha Krishnachandra, Sri Sri Krishna Balarama, Sri Sri Nitai
+                        Gauranga, Sri Srinivasa Govinda, Sri Prahlada Narasimha, Bhakta Hanuman, Garudadeva and Srila Prabhupada, Founder
+                        Acharya of ISKCON. ISKCON Bangalore is a charitable society with the objective of propagating Krishna Consciousness all
+                        over the world, as explained by Srila Prabhupada, whose teachings are based on Bhagavad-gita and Srimad Bhagavatam
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/ban2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Wonderla Amusement Park</h4>
+                            <p>
+                        Wonderla Holidays Limited, is the No. 1 amusement park operator in India. Promoted by Arun K. Chittilappilly and
+                        Kochouseph Chittilappilly, Wonderla currently owns and operates three amusement parks – one each in Kochi, Bangalore and
+                        Hyderabad respectively and a resort in Bangalore. Wonderla Kochi, spread over 35 acres of land, is thrilling visitors
+                        with 56 rides since 2000. Wonderla Bangalore, spanning over 82 acres, offers a spectacular range of entertainment with
+                        61 rides. Wonderla Hyderabad, the latest edition in the portfolio, is spread over 50 acres and offers 43 attractions.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ban3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Bangalore Palace</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                        Built by Chamaraja Wodeyar in the year 1887, Bangalore Palace is an inspired design by England’s Windsor Castle and is
+                        one of the best tourist places in Bangalore. The evocative palace comprises fortified arches, towers, Tudor-style
+                        architecture, and green lawns along with sophisticated wood carvings in the interior. It is where the royal family still
+                        resides at the present. This Tudor-style architectural creation is nothing less than an epitome. The palace has earned
+                        foundations that have been attributed to the Wodeyars of Mysore.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ban4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kempegowda International Airport: The Spirit In A White Sari</h4>
+                            <p>
+                    he Kempegowda International Airport is one of the busiest and most haunted airports in India, with state-of-the-art
+                    architecture and provides connectivity to a number of international and domestic destinations.
+                    Spooky Occurrence: A pilot recalls the story of the lady in a white sari requesting to help her. When he came back,
+                    she’d disappeared! Some airlines have also spotted this woman on the runway with her arms stretched out.
+                    Haunting Incidents: After a few days, the ghost began haunting the cargo bay as well. Another headless ghost was seen
+                    near the escalators and parking bays. Whether true or not, these stories definitely add a dreadful element to this
+                    airport and make it one of the scary places in Bangalore.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/ban5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Call Center: The Screaming Spirit</h4>
+                            <p>
+                        A most-visited and the busiest road of Bangalore, MG Road or Mahatama Gandhi Road in Bangalore is a one-stop destination
+                        for everyone. From shopping adventures of handicrafts, attires, bone china, etc and dance clubs to call centers and
+                        offices, MG Road blankets everything one can think of in a city. Young, working professionals can mostly be seen on the
+                        streets of this region in Bangalore. With a plethora of cafes and restaurants serving some of the most lip-smacking
+                        delicacies, MG Road tends to be a favorite amongst locals and tourists alike.
+                        Spooky Occurrences: The road that crosses the call-center is better to be avoided during the night. It is said that a
+                        young woman who worked in the call-center was killed in a drunk and driving case. The driver that had hit that woman
+                        left her there, screaming, and she died on that spot.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ban6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Wonder La Water Park</h4>
+                            <p>
+                        Adventure on your mind? Take your family to Wonderla Bangalore, one of the best amusement parks and places to see in
+                        Bangalore. Luring in a large influx of youngsters and families year-round, this park is perfect for those who wish to
+                        experience an adrenaline rush in a world-class waterpark that is safe and inexpensive at the same time. The high-thrill
+                        dry rides of this park are the star attraction here, but it’s also famous for its numerous water rides and shows, and
+                        there are about 60 of such rides that you can enjoy here!
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

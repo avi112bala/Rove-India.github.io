@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">
+                        <span>K</span>
+                        <span>a</span>
+                        <span>n</span>
+                        <span>y</span>
+                        <span>a</span>
+                        <span>K</span>
+                        <span>u</span>
+                        <span>m</span>
+                        <span>a</span>
+                        <span>r</span>
+                        <span>i</span>
+                </h2>
+
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/kan1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kanyakumari Beach</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                            Located in the southernmost part of India, Kanyakumari beach with its beautiful hue-changing beaches, the confluence
+                             of three water bodies: Bay of Bengal, Indian Ocean, and the Arabian Sea. Miraculously, here you can see that the 
+                             water of three seas does not mix, you can distinguish between the turquoise blue, deep blue, and sea green waters 
+                             of the three seas, though the colors keep changing with the season and the day's weather.The beach is not 
+                             conducive to swim or surf as the water as the sea is rough and the beach is rocky.           
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/kan2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Vivekananda Rock Memorial</h4>
+                            <p>
+                            The magnificent Vivekananda Rock Memorial is located on a small island off Kanyakumari. It has the picturesque 
+                            Indian Ocean in its backdrop. It is situated on one of the two adjacent rocks projecting out of the Lakshadweep Sea 
+                            and comprises of the 'Shripada Mandapam' and the 'Vivekananda Mandapam'.Vivekananda Rock Memorial is located at
+                             about 500 meters east of the mainland of Vavathurai in Kanyakumari and can be accessed by regular ferries.
+                            This statue was built in the year 1970 on the island situated in Vavathurai, built on the site where Vivekananda 
+                            attained enlightenment. The Shripada Mandapam has a study hall and a museum, where you can explore Vivekananda's 
+                            life and work in depth.          
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kan3.jpg" alt="">
+                        <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Thiruvalluvar Statue 
+                        </h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                             Dedicated to the accomplished philosopher and poet Thiruvalluvar, this beautiful statue finds itself on a small 
+                             island near Kanyakumari. Thiruvalluvar was the author of a legendary work in the world of Literature, Tirukkural, 
+                             the classic Tamil text. In his devotion, the work for the statue started in 1990 and continued till 1999, during 
+                             the year in which the figure finally got completed.This monument stands tall at a mighty height of 133 feet and is 
+                             perched upon a 38-foot pedestal. The pedestal's height represents the 38 chapters of virtue in Thirukkural. Full of
+                              symbolism and cultural significance, this destination is awe-inspiring, and a must-visit. V.          
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kan4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Wax Museum</h4>
+                            <p>
+                            The Wax Museum is definitely is one of its kind Museum that stands above the rest in terms of creativity. It is 
+                            situated in Kanyakumari region in the city of Baywatch.The museum houses all the important figures of the Indian
+                             History as well as the world history in wax form. The wax figures are realistic and the Wax Museum is reminiscent 
+                             of its famous counterpart in London. There are also many current international figures like the wax counterpart of
+                              Arnold Schwarzenegger.    
+        
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kan5.jpg">
+                        <div class="content">
+
+                            <h4> <i class="fas fa-map-marker-alt"></i>Courtallam Falls</h4>
+                            <p>
+                            Set in the midst of a Panchayat town in the Tirunelveli district of Tamil Nadu, the Courtallam falls are renowned 
+                            in the state for its enormity as well as ferocity. At an elevation of 160 metres (520 feet), the cascade towers 
+                            above its green surroundings and magnificent hillside.A scene from the award-winning 1992 Hindi movie 'Roja' was
+                             filmed here, along with several other South Indian movies, and the waterfall has continued to grow in its 
+                             popularity as a tourist attraction since then.         .
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="images/kan6.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Lord Subramanya Temple</h4>
+                            <p>
+                            Lord Subramanya Temple is one of the most interesting temples to visit when in India. The never ending pillars and 
+                            countless towers give it a magnificent look.Lord Subramanya Temple is one of the many places in India, where you
+                             could get a taste of the wonderful things that await for you there.Many festivals are celebrated at Lord 
+                             Subramanya Temple and especially during certain religious holidays, it is very hard to get in there. It is very
+                              easy to travel to the Temple either by bus or by train.          
+
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

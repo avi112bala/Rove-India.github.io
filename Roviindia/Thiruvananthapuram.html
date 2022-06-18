@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>                                                               
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+            <h6 class="heading1">
+                    <span>T</span>
+                    <span>h</span>
+                    <span>i</span>
+                    <span>r</span>
+                    <span>u</span>
+                    <span>v</span>
+                    <span>a</span>
+                    <span>n</span>
+                    <span>a</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>a</span>
+                    <span>m</span>
+                    <span class="space"></span>
+                    <span>p</span>
+                    <span>u</span>
+                    <span>r</span>
+                    <span>a</span>
+                    <span>m</span>
+                </h6>
+               
+               
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/ti1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Padmanabhaswamy Temple</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        One of the 108 Divya Desams, Sree Padmanabhaswamy Temple is located in Thiruvananthapuram, the capital city of Kerala. Embellished in
+                     gold-plated covering, the temple is opened only to Hindu followers. Dedicated to Lord Padmanabha; one of the avatars of Lord Vishnu, the 
+                     Padmanabhaswamy Temple is one of the principal centres of Vaishnava worship in the dharma of Vaishnavism. Built as a 
+                     replica of the Adikesavaperumal Temple in Thiruvattar, the Padmanabhaswamy temple is well-preserved antiquity. Although the
+                    origin of this temple still remains a mystery, devotees believe it to have existed since the first day of the Kali Yuga, 
+                    which was 5000 years ago. The Padmanabhaswamy temple also has a mention in the Bhagwad Gita. The scripture states that 
+                    Balarama, the older brother of Lord Krishna frequented the temple, bathed in the Padmatheertham and also made several 
+                    offerings the deity here. 
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/ti2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Magic Planet</h4>
+                        <p>
+                        Renowned as the first magic park in the entire world, the Magic Planet is an absolute treat for the inquisitive child in
+                         us all. This mystical theme park aims at changing the perspective with which we look at magic- instead of looking at it
+                          as a mystery, the Magic Planet encourages us to put on our science glasses and look at the beautiful art of magic as a
+                           segment of pragmatic math and awe-inspiring science. Inaugurated by then Chief Minister of Kerala, Mr Oommen Chandy 
+                on October 31, 2014, the Magic Planet has done a great deal in not only introducing the layman to the vast world of magic, but 
+            also to rehabilitate the extraordinarily talented and capable Indian street magicians who will charm you by exhibiting some shocking
+             magic moves and awe-striking tricks. Few of these famous tricks are the 'Indian Mango Mystery' and the 'Indian Basket Trick', which
+              have never failed to entertain and amuse the onlooker.                       
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/ti3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Karikkakom Chamundi Devi Temple</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                     Adding to the historical significance and cultural diversity of the little yet vibrant city of Karikkakom is the 
+                     Karikkakom Sree Chamundi Devi Temple which is over 600 years old. This ancient temple is actually set in dense green 
+                     environs with the tall lush palms enveloping it from all sides. The Karikkakom Devi is a Hindu temple that enshrines 
+                     Goddess Chamundi. However, the distinctive peculiarity of this temple is that it worships all the three forms of Goddess
+                      Chamundi- Maha Chamundi, Rakhta Chamundi and Bala Chamundi.What most people don't know about this temple's history is that
+                       in the olden days when the monarchy was practiced, the Kings chose this temple as the destination for bringing justice 
+                       and punishing wrong doers. The accused were brought to stand in front of Rakhta Chamundidevi's sanctum, put 21 coins in 
+                       the nada and asked to say the truth.             
+                             
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/ti4.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Shanghumukham Beach</h4>
+                        <p>
+                    One of the most popular beaches, Shanghumukham Beach is known for its pristine waters and soulful sunsets. It runs next to
+                            the Trivandrum airport and a must visit for those seeking tranquility.                                
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/ti5.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Attukal Temple</h4>
+                        <p>
+                    The Attukal Bhagavathy Temple in Trivandrum is one of the most talked about temples of not just the south, but the entire 
+                    country. Among the many reasons for its popularity, probably the most eye-catching one is that it received a Guinness World
+                     Book record when over 37 lakh women offered pongala at this temple at once, making it the destination of the largest 
+                     gathering of women for a religious activity! Popularly known as the 'Sabarimala of Women', this temple draws a massive 
+                     throng of women each year during the famous Attukal Pongala festival. Rich in cultural heritage and adorned by impeccable
+                      Tamil architecture, this temple holds an extremely critical place in the hearts of the natives and the devotees of Goddess
+                       Bhagavathy, the principal deity of this temple.      
+                        </p>
+                    </div>
+
+                </div>
+           
+            <div class="box">
+                <img src="images/ti6.jpg" alt="">
+                <div class="content">
+                    <h4> <i class="fas fa-map-marker-alt"></i>Happy Land Water Theme Park</h4>
+                    Happy Land Water Theme Park is quite popular among children as well as adults for its various kinds of adventurous water rides.              
+                    </p>
+                    <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                </div>
+            </div>
+
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

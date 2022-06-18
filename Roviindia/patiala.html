@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+         .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box video {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <span>p</span>
+                <span>a</span>
+                <span>t</span>
+                <span>i</span>
+                <span>a</span>
+                <span>l</span>
+                <span>a</span>
+            </h1>
+
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                    <img src="images/pa-1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Baradari Garden </h4>
+                            <p>
+                                The name of this garden has a meaning that resembles its structure. The name is formed
+                                with bara which means 12 and
+                                dar meaning gates and so, there are twelve entrance gates in the garden. Built by
+                                Rajinder Singh in 1876, the garden
+                                is filled with lush greenery and is home to rare species of trees and
+                                flowers. You will find big fruit trees, the Fern house and Rock garden which show the
+                                interest of the king in nature.
+                            </p>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="box">
+                    <img src="images/pa2.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Sheesh Mahal </h4>
+                            <p>
+                                This attractive building is the palace that was given birth to by the Maharaja Narinder
+                                Singh in 1847.
+                                The palace is really beautiful and consists of paintings and artwork that depict the
+                                vision of sudras, keshavs and
+                                more. There is a section of the palace which is called palace of mirrors as it is
+                                decorated with mirrors and colored
+                                glass. Apart from that, there is a bridge called Lachman Jhoola and a museum which you
+                                must visit.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        </div>
+                    </div>
+
+
+                    <div class="box">
+                        <img src="images/pa3.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Shri Dukh Niwaran Sahib </h4>
+                            <p>
+                                This is one of the most famous places to visit in Patiala. The pond of Gurdwara is
+                                supposed to be very
+                                pious and to be the cure of various people of the area from a disease. And thus it got
+                                its name
+                                ‘Dukhniwaran’, that is, the eliminator of suffering. The gurdwara is very beautiful as
+                                well. If you
+                                are looking for peace, then this is the place to be. </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                        </div>
+                    </div>
+
+
+                    <div class="box">
+                        <img src="images/pa4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Omaxe Mall</h4>
+                            <p>
+                                Apart from the tourist attractions, if you want to go shopping in Patiala, then this
+                                mall is where you should head to. This is the only mall in the city and offers
+                                everything from clothing stores to eateries. If you are visiting Patiala with friends
+                                and done with your exploration you can visit the mall to spend some good time.
+                            </p>
+
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                    <img src="images/pa5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Qila Mubarak Complex
+                            </h4>
+                            <p>
+                                If you want to see the Sikh architecture, then this is the perfect example of it. The
+                                complex was built under the rule
+                                of Maharaja Ala Singh in 1764. The complex is divided into multiple sections that depict
+                                the life at the
+                                time of its use by the kings. The various sections are Ran Baas, Darbar Hall, Qila
+                                Androon and more.
+                            </p>
+
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="images/pa6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>patiala fun world</h4>
+                            
+                            <p>
+                                fun amusement park is the most sorted out places in patiala, Punjab. This water-themed
+                                park gets your
+                                adrenaline pumped up with over 20 exhilarating rides like the roller coaster, sun &
+                                moon, pendulum and motorcycle.
+                                it is the most significant water-themed park in Punjab. It's nestled over a large area
+                                of parkland on the patiala. It's a frolic place with mostly wave pools and water slides
+                                around the
+                                place.
+                            </p>
+
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </header>
+</body>
+
+</html>

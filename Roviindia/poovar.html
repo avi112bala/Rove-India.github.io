@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>                                                               
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <span>P</span>
+                <span>o</span>
+                <span>o</span>
+                <span>v</span>
+                <span>a</span>
+                <span>r</span>
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/po1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Poovar Beach</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                         A stunning beach with golden sand and gentle breeze nestled between the gorgeous River Neyyar and Arabian Sea. The 
+                         swaying coconut palms add to the beauty of this picture perfect beach which is only accessible via a water taxi alone.
+    Offering perfect environs for relaxing and unwinding, the beach does not indulge in water sports due to the active fishing population.       
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/po2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Thirparappu Falls</h4>
+                        <p>
+                            Located at a distance of about 55 kilometres from Kanyakumari, the cascading waters of the Tirparappu Falls make up for 
+                            an enchanting sight. This waterfall is a manmade one and falls from a height of 50 feet. The water collects in a quaint
+                             pool below which is an ideal place to frolic around, especially for children. The falls are surrounded by thick green 
+                             foliage and indigenous fauna, which make it a nature lover's paradise. Thirparappu Falls are best seen on a day trip 
+                             from Kanyakumari or as a stopover while you travel between Kanyakumari and Trivandrum.
+                            These falls are a unique combination of streams that flow together to form a magnificent waterfall.                                
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/po3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Boat Race</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                        Adrenaline rushing snake boat races are a specialty of Kerala. Poovar during the local boat races is a sight to be held.
+                         The usually calm and tranquil environment is all charged up and one can see the enthusiastic festivity mood all around.
+
+                             
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/po4.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Kovalam Beach</h4>
+                        <p>
+Famous for its esorts and ayurvedic massage centre, Kovalam is a coastal town located around 13 km from Thiruvananthapuram in Kerala. The 
+largest beach in Kovalam is the lighthouse beach that features a 30-metre tall lighthouse. The other two adjacent beaches are Samudra beach and
+ Hawa beach. All these three beaches are crescent-shaped shallow water and low tidal beaches.
+
+Earlier a fishing village, Kovalam started attracting tourists in the 1930s and shot to fame in the hippie era of 1970s. It still sees 
+the influx of tourists from Israel and Europe.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/po5.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Vizhinjam</h4>
+                        <p>
+                            Vinzhinjam is a popular fishing village located only 17 kms from the city centre of Thiruvananthapuram. You can witness
+                            a rare and curious sight of hundreds of fishing boats lined across the fishing harbour as they cruise in perfect harmony
+                            without colliding into each other! Its geographical setting makes it a natural port and quite an important one. Other
+                            than its political and economic significance, Vinzhinjam is a very popular tourist attraction and one of the favourite
+                            getaways of the south
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/po6.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>The Great Elephant Race</h4>
+                        <p>
+                            Have you ever imagined what it would be like to experience the celebrated tradition of an elephant race? Become a part
+                            of such a colourful extravaganza with the Great Elephant Race organised by the Kerala tourism Department. This event
+                            takes place in the month of January and lasts for a period of four days and features a grand marching of around 101
+                            elephants from Thrissur to Kovalam Beach amidst a lot of enthusiasm, splendour and merriments.
+                        </p>
+                    </div>
+                </div>
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

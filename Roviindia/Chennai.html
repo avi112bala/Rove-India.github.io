@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">
+                        <span>C</span>
+                        <span>h</span>
+                        <span>e</span>
+                        <span>n</span>
+                        <span>n</span>
+                        <span>a</span>
+                        <span>i</span>
+                </h2>
+
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/chen1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Marina Beach</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                            Situated in the city of Chennai in Tamil Nadu, Marina Beach is a natural urban beach along the Bay of Bengal. The 
+                            beach is stretched out to a distance of 13 kilometres making it the longest natural urban beach in the country, 
+                            second largest in the world and also the most crowded beach in India with almost 30,000 visitors a day.  With a 
+                            white sandy shore that looks as though extending to infinity, the landscape of Marina Beach is a mesmerising and 
+                            serene sight to behold. The beach has a primarily sandy terrain and is dotted with plenty of merry-go-rounds and 
+                            shops selling souvenirs.        
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/chen2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Marundeeswarar Temple</h4>
+                            <p>
+                            The magnificent Marundeeswarar Temple, in Tiruvanmiyur, near Chennai has the temple deity Shiva in the form of 
+                            Marundeeswar or Aushadeeswarar, the God of Medicines. A fine specimen of Dravidian architecture, this temple is a
+                             must visit for anyone visiting Chennai or nearby cities. Glorified in the 7th-8th century by Nayanars 
+                             (Saivite Saints), Tirugnana Sambandar, and Appar, the temple was expanded by the Chola Kingdom in the 11th century.
+                             One must visit the temple to encounter the miraculous power it is said to have.        
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/chen3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Parasailing</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                            If you think the city of Chennai is all about glitzy temples and serene beaches, look deeper cause the uber city is
+                             home to one of the most adventurous sports of all times - Parasailing. Unlike several other water sports, this one
+                            is not for the faint hearted. Parasailing allows you to sail above the water with a safely harnessed parachute tied
+                             to your back. The forward moving motor speed boat fills the parachute with air allowing the participant to gloat 
+                             over the turquoise blue ocean       
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/chen4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Scuba Diving</h4>
+                            <p>
+                            Chennai could get quite hot in the summer and beating the heat would be the top priority in summers. Then why not 
+                            dive into the Bay of Bengal somewhere off the coast of Chennai. Discovering a totally different world under the 
+                            surface of the sea and cooling yourself at the same time is the best deal about Chennai.To experience scuba diving,
+                             you will need to undergo proper training and get acquainted with scuba equipments like masks, oxygen tanks, snorkel,
+                              fins, regulators, weights, buoyancy control devices etc. Once done, you can plunge in the deep waters to swim past 
+                              the many-hued corals, brilliant fish and other jazzy marine creatures.
+        
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/chen5.jpg">
+                        <div class="content">
+
+                            <h4> <i class="fas fa-map-marker-alt"></i>Surfing</h4>
+                            <p>
+                            Getting in the water and riding the waves on a surfboard is not a thing that everyone can do. But some hours of
+                             practice can make that joy possible. There are a number of surfing schools that offer courses and help you tame 
+                             the waves under your feet.    .
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="images/chen6.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Jungle Safari </h4>
+                            <p>
+                            The tropical climate of Chennai has blessed the land with ample amount of lush greenery and equally rich wildlife. 
+                            Safari in Chennai’s wildlife parks award the visitors with some amazing experiences around our neighbours of nature.
+                             Interacting with the wild animals makes us realize the true nature of wilderness. There’s a lot to learn and 
+                             understand from animals.       
+
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

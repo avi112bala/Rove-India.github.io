@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+                 .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                } 
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                
+                <h2>
+                <h1 class="heading1">
+                <span>A</span>
+                <span>l</span>
+                <span>l</span>
+                <span>a</span>
+                <span>h</span>
+                <span>a</span>
+                <span>b</span>
+                <span>a</span>
+                <span>d</span>
+              </h2>
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/allahabad1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Triveni Sangam</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        One of the holiest places in Central India, Triveni Sangam is located about 7 kilometres away from Civil Lines in 
+                        Allahabad (Prayagraj). It is the meeting point of three rivers - Ganga, Yamuna, and Saraswati. It is one of the places 
+                        where the Kumbh Mela is held once every 12 years. The exact date of the Mela is determined according to the Hindu 
+                        calendar i.e. the Panchanga.All three rivers Ganga, Yamuna, and Saraswati are highly revered rivers in Indian mythology,
+                        and hence the confluence point of these rivers hold tremendous religious importance. According to Hindu mythology, 
+                        taking a bath in the holy Triveni Sangam is supposed to flush away all the sins and free you from the cycle of rebirth.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/allahabad2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Khusro Bagh</h4>
+                        <p>
+                        Lying at Lukarganj, Khusro Bagh is one of the most popular tourist destinations in Allahabad. The walled bracketing of 
+                        the Khusro Bagh is a stunning remnant of the Mughal architecture.It houses three sandstone tombs of the Jehangir family;
+                        his wife; Shah Begum, his oldest son; Khusrau Mirza and his daughter; Sultan Nithar Begum. Most of the design of the 
+                        place is credited to Aqa Reza, an artist on Jehangir's court. Landscaped amid an elaborately beautiful garden of guava 
+                        trees and roses, the Bagh cites intricate carvings and inscriptions on each of the mausoleums. 
+                        </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/allahabad3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Allahabad Fort</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                        Allahabad Fort is a splendid work of architecture that was built during the reign of Akbar, the Mughal Emperor in 1583. The 
+                        marvellous structure is located on the banks of the confluence of the Rivers Ganga and Yamuna and is well-known for being the 
+                        largest fort ever built by Akbar.This famous attraction draws thousands of tourists from all over the world not only for
+                        its historical importance but also for its architectural magnificence. However, one should note that quite, 
+                        unfortunately, access to Allahabad Fort is generally closed to the common public. Tourists are allowed inside only 
+                        during the Kumbh Mela, which is held once every 12 years. Nevertheless, the glorious architecture and the massive build
+                        of the monument as it stands strong on the banks of the confluence of the two rivers is a sight to behold!   
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/allahabad4.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Allahabad Pillar</h4>
+                        <p>
+                        A significant remnant of the Gupta era, the Allahabad Pillar is one of the many pillars set up by the Mauryan emperor, Ashoka.
+                        This polished sandstone spire hones inscriptions from the Samudragupta and Jahangir era; the 4th BCE and 17th century
+                        respectively.However, the Allahabad Pillar was further shifted from its origin to Akbar's Allahabad Fort, which is a 
+                        present-day army land. Thus, visitors would need prior permission before visiting the Allahabad Pillar. 
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                <img src="images/allahabad5.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Magh Mela</h4>
+                        <p>
+                        Organised every year in the pristine city of Allahabad, Magh Mela is the mini version of the famous Kumbh Mela. Taking place at 
+                        the confluence of the three great Indian rivers Ganga, Yamuna, and Saraswati at Prayag near Allahabad, the mela is held in the 
+                        Hindu month of Magh (January/February) every year and is a much-awaited event amongst the pilgrims.The Magh Mela 
+                        attracts a large number of tourists and pilgrims every year, looking forward to washing their sins off in the holy river
+                        at the time of the mela, which is spread over a period of 45 days. The Mela gets its name from its occurrence in the 
+                        Hindu month of “Magh” or the month of February in the Gregorian calendar. Numerous arrangements are made all over to 
+                        accommodate the massive crowd the mela observes, thus making it one of the must visit the religious festival in the 
+                        country.
+                        </p>
+                    </div>
+
+                </div>
+           
+            <div class="box">
+                <img src="images/allahabad6.jpg" alt="">
+                <div class="content">
+                    <h4> <i class="fas fa-map-marker-alt"></i>New Yamuna Bridge</h4>
+                    <p>
+                    Established in 2004, the newly designed cable-stayed New Yamuna Bridge over the river Yamuna was built to minimise traffic 
+                    flow on the Old Naini Bridge in Allahabad. Also known as the Naini Bridge, it runs from northern to southern Allahabad 
+                    connecting it to the neighbourhood of Naina. Running over 1510 metres, the bridge is supported by cables to its deck.
+                    The New Yamuna Bridge is one of the first six-lane bridges in India built with modern structure and design. It acts as a 
+                    link between Allahabad and NH-27 which stretches for almost 370 metres. For the best views, visit the New Yamuna Bridge 
+                    during dusk when it is lit dazzlingly. To have a sweeping view of the Sangam, visiting during dawn is ideal. During the
+                     Magh Mela and Kumbh Mela, you can see the tented cities stretch for miles from this bridge.
+                    </p>
+                    <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                </div>
+            </div>
+
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

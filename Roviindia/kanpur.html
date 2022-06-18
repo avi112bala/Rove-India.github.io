@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+                 .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <span>K</span>
+                <span>a</span>
+                <span>n</span>
+                <span>p</span>
+                <span>u</span>
+                <span>r</span>
+               
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                <img src="images/kanpur1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>JK Temple</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        JK Temple, otherwise called as Juggilal Kamplapat temple is located on the Govind Nagar road of Sarvodaya Nagar in
+                        Kanpur. It is a beautiful combination of both ancient and modern architecture. There are nearby lakes and greenery such 
+                        as the popular Moti Jheel.Constructed under the supervision of the Singhania family in 1953, the JK temple is largely
+                        managed by the JK trust, even till today. The idol of the Hindu deity Radha Krishna is found at the centre of the temple
+                        which is surrounded in lush greenery and small lakes.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/kanpur2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Blue world theme park</h4>
+                        <p>
+                        Situated on Mandhana-Bithoor Road, the Blue World Theme Park is a fantastic water and amusement park with tons of rides.
+                        The rides have been thematically divided into the following – European, Fairy Land Theme, Chinese Theme, Jungle Theme, 
+                        Mayan and Egyptian Culture and Indian themes.Spread across 25 acres of land containing a Water Park and an Amusement 
+                        Park, Blue World Theme Park also cites multiple restaurants inclusive of all ranges of budget and culinary authenticity.
+                        There are also musical fountains, laser shows and an exciting 7D show as well.
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                <img src="images/kanpur3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Valmiki Ashram</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                        Valmiki Ashram is a hilltop holy site located in Bitoor, Kanpur. It is believed to be the place where the saint Valmiki
+                        wrote the Ramayana. Covering an expanse of vast land, the Valmiki Ashram encompasses three temples and a pond. 
+                        It is also said that this was once the Hindu goddess, Sita's residence during her exile. A considerable part of the 
+                        famous Indian epic and Hindu mythology, Ramayana is based on this place. The architecture of the place is pretty simple 
+                        and is surrounded by greenery all around.
+                             
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                <img src="images/kanpur4.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Kanpur Memorial Church</h4>
+                        <p>
+                        One of the oldest and beautiful churches of India, the Kanpur Memorial Church is located on Albert Lane. Also known as 
+                        the All Souls Cathedral Church, it is popularly known for its architecture and historical importance. Established in 
+                        1857, the church is a memoir of the lost British troops of the Sepoy Mutiny.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/kanpur5.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Kanpur zoo</h4>
+                        <p>
+                        Also known as Allen Forest Zoo, the Kanpur Zoological Park is located in Nawabganj, approximately 7 kilometres from 
+                        Kanpur city. Situated in the human-made Allen Forest, this zoological park houses a picturesque landscape, lush 
+                        vegetation, a beautiful lake, and several rare species of plants and animals.
+                        Maintained by the Forest Department, State Government of Uttar Pradesh, the Kanpur Zoological Park is home to many 
+                        wildlife species including white tigers, leopards, black bears, grizzly bears, sloths, zebras, rhinoceros, hippopotamus
+                         and reptiles such as snakes.
+                        </p>
+                    </div>
+
+                </div>
+           
+            <div class="box">
+                <img src="images/kanpur6.jpg" alt="">
+                <div class="content">
+                    <h4> <i class="fas fa-map-marker-alt"></i>ISKCON Temple Kanpur</h4>
+                    <p>
+                     The ISKCON temple is yet another international spiritual tourist attraction dedicated to Lord Krishna. The temple is 
+                     located on Mainavati Marg, Bithoor Road, about 4 km from Kanpur. The best time to visit is in August and September due to 
+                     Krishna Janmashtami and Radhashtami respectively.The deities here receive an annual Maha-Abhishek, which is the traditional
+                     bathing of the holy idols, at the Royal Gold Leaf Shrine. In addition to customary rituals, there are three festivals that
+                    mark this significant custom. The avatars of Lord Krishna, Sri Sri Radha Madhav, Sri Sri Nitai Gaursundar and Sri Sri 
+                    Janakai Janaki Vallabha Laxman Hanuman are conventionally decorated and preserved.
+                    </p>
+                    <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                </div>
+            </div>
+
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

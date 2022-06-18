@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>k</span>
+                    <span>a</span>
+                    <span>s</span>
+                    <span>a</span>
+                    <span>u</span>
+                    <span>l</span>
+                    <span>i</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/ka1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Monkey Point Kasauli</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                                Kasauli's Monkey point is the highest point of the town and is one of the most famous attractions of the place. Located at a mere distance of 4 kilometres from the bus stand, this destination has a small temple dedicated to Lord Hanuman that remains crowded with monkeys. Being the highest point of the town, the Monkey point offers a bird's eye view of the nearby cities of Chandigarh, Kalka, Panchkula and sutlej river from this point. On a clear day, visitors can also spot a snow-covered peak of 'Choor Chandni', the highest peak of the Lower Himalayan belt.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/ka2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Sunset Point</h4>
+                            <p>
+
+                                Sunset Point in Kasauli is a popular yet a very quiet spot to enjoy the sunset, pine-laid landscapes, valleys and sceneries. Nearby to the Sunset point, is a trail or a path known as the Lover's Lane which is an only more quiet walk through the valleys and some of Kasauli's most calm and breath-taking sceneries.However it is preferable to leave the area before its gets dark or late in the evening since it tends to be a rather off-beat place with not to many facilities.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ka3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Timber Trail</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>Wrapped in the quiet charms of Himachal Pradesh, Timber Trail in the city of Kasauli is a quiet little hill station. The destination is an emerald beauty with its many pine and coniferous trees. Perhaps the most sought-after destination around Kasauli's Parwanoo, Timber Trail is a favourite among the backpacker community and students alike.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ka4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Gurudwara Shri Guru Nanakji</h4>
+                            <p>
+                                This Gurudwara is an important religious center as well as a favorite tourist spot. Other than daily prayers and programmes, a special programme is held on the Sundays. The Gurudwara also offers accommodation facilities
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/ka5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Baptist Church </h4>
+                            <p>
+                                Built in the year 1923 by the Britishers, the architecture of this Church is influenced by a blend of Indian and Victorian styles. However the church was damaged by a fire in 2008 and all internal furnishings were destroyed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ka6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Gilbert Trail</h4>
+                            <p>
+                            Gilbert Trail is an easy hike of 1.5 kilometres. Starting from Kasauli Club, the trail ends at the Air Force Station,close to Sunset Point. The path is wide in the strat and gets narrow after a while. Gilbert Tail is known for its views and different species of birds.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>K</span>
+                    <span>a</span>
+                    <span>s</span>
+                    <span>o</span>
+                    <span>l</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <div class="videos">
+                            <video controls="controls" src="image/magic valley.mp4" video="web/mp4" loop autoplay
+                                muted></video>
+                        </div>
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Magic Valley</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                                Magic Valley, officially known as Waichin Valley, is a hidden gem in Himachal Pradesh, located above Malana Village at an altitude of 2,700m. An absolute treat for nature and adventure lovers, Magic Valley is known for its views of the majestic snow-covered Himalayas including Tiger Mouth Peak and Khiksa Thaj Glacier, gushing waterfalls, dense coniferous forests and streams.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div class="videos">
+                            <video controls="controls" src="image/Sar Pass Trek.mp4" video="web/mp4" loop autoplay
+                                muted></video>
+                        </div>
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Sar Pass Trek</h4>
+                            <p>
+
+                            Endowed with diverse terrain and rich in nature’s beauty, Sar Pass Trek is a perfect trek destination for beginners.Steeped in great beauty, the trail passes through thick forests, lush green meadows, rustic villages, and snow clad mountains gracing the backdrop. </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                    <div class="videos">
+                        <video controls="controls" src="image/Pin Parvati.mp4" video="web/mp4" loop autoplay
+                            muted></video>
+                    </div>
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Pin Parvati Pass
+</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                            Pin Parvati Pass serves as a perfect destination for the trekkers seeking challenging adventure. It is one of an amazing Trans Himalayan trek that will not only leave spellbound by its beauty but also gushing with adrenaline with the challenges it throws at you
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="videos">
+                            <video controls="controls" src="image/KHEERGANGA YATRA.mp4" video="web/mp4" loop autoplay
+                                muted></video>
+                        </div>
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kheerganga Trek</h4>
+                            <p>
+                                Kheer Ganga (3050 meters) lies at the extreme end of Parvati valley and the last inhibited village while trekking to pin valley via Pin-Parvati pass. Kheerganga's panoramic skies and vast greenery are a much-needed delight to the trekker's eyes and especially the tired legs. It is a holy place with a hot water spring, a small temple of Lord Shiva and a bathing tank. It makes a rare combination for any trekker to bath in hot spring water when everything is covered by snow.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="videos">
+                            <video controls="controls" src="image/MANIKARAN GURUDWARA.mp4" video="web/mp4" loop autoplay
+                                muted></video>
+                        </div>
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>MANIKARAN GURUDWARA </h4>
+                            <p>
+                            Believed to be visited once by the first religious leaders of the Sikhs, Guru Nanak, the Gurudwara at Manikaran 
+                            Sahib is one of the most revered pilgrimage sites in Sikhism and is one of the best places to visit in Kasol. 
+                            Associated with a lot of legends, the hot springs here are considered to be sacred. That is the reason why the 
+                            offerings to God here are cooked in these hot springs and are consumed as divine. Also, bathing in the springs is
+                             considered to be another ritual and a spiritual act performed for bringing the pilgrim close to God. With such 
+                             pious and auspicious traditions attached to this place, it is a must visit when coming to Kasol the next time.        
+                            </p>
+                            </div>
+                    </div>
+                    <div class="box">
+                        <div class="videos">
+                            <video controls="controls" src="image/tosh village.mp4" video="web/mp4" loop autoplay
+                                muted></video>
+                        </div>
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Tosh Village</h4>
+                            <p>
+                            Located at an altitude of 2,400m above sea level, Tosh is a small village located on the banks of River Tosh.
+                             Situated at one edge of the Parvati Valley, Tosh is an offbeat destination in Kasol that attracts a lot of 
+                             tourists from across the country because of its scenic beauty. The trek to Tosh starts from the base of Kheerganga 
+                             and is one of the most scenic routes in the valley as you walk side by side the Rivulet Tosh. The beauty of Tosh is
+                              at its best in the winters, when the snow on the trail and around the village gives you the feeling of being what 
+                              closely resembles our idea of Paradise. The serene beauty of this place is incomparable and that is why Tosh and 
+                              a trek to Tosh is a must have experience in Kasol at least once in your lifetime.
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

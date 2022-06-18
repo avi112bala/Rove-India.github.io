@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                <h1 class="heading1">
+                    <span>r</span>
+                    <span>a</span>
+                    <span>m</span>
+                    <span>e</span>
+                    <span>s</span>
+                    <span>h</span>
+                    <span>w</span>
+                    <span>a</span>
+                    <span>r</span>
+                    <span>a</span>
+                    <span>m</span>
+                </h2>
+                
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/ram1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Five Faced Hanuman Temple</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                        Highly revered by the Hindus, the temple of Five Faced Hanuman is only 2 km from the Ramanathaswamy Temple also known as Panchmukha Anjaneya It is believed that Hanumana revealed his five-faced form for the first time in this place. The statue of Lord Hanuman is smeared with sindoor and worshipped with utmost devotion.The temple here enshrines the statues of Rama, Laxman and Sita. There is a floating stone in the temple which is believed to have been used during Sethu Bandhanam as mentioned in the Ramayana. It is one of the most sacred places in India.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/ram2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Villondi Teertham</h4>
+                            <p>
+                        Literally meaning the buried bow, Villoondi Tirtham is a quaint religious destination where Lord Rama dipped his bow into the seawater to quench his consort Sita’s thirst. It is said that before burying the bow here Lord Rama shot an arrow into earth from where a stream of sweet water emerged to quench Sita’s thirst. There is Ekantha Ramar Temple which is constructed on the same place where Lord Rama took rest before launching attack on Lanka.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ram3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Sri Ramanathaswamy Temple</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                            This Hindu temple, dedicated to Lord Shiva, was built in the 17th century exhibiting spectacular architectural beauty.It is one of the twelve Jyotirlinga and is said to have been built by Lord Rama himself. Hence, it is accounting to one of the popular tourist attractions in Rameshwaram and holds importance in the Hindu culture. This massive structure has the longest temple corridor in the world with 1200 granite pillars.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ram4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Adam’s Bridge</h4>
+                            <p>
+                            Also known as “Rama’s Bridge or Rama Setu”, it is a trail of limestone shoals connecting the southernmost part of Indian and northwestern coast of Sri Lanka. The importance of this enchanting bridge in Hindu Mythology and Islamic legend makes it one of the best tourist spots in Rameshwaram. This submerged bridge is said to be about eighteen thousand years old.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/ram5.jpg">
+                        <div class="content">
+                      
+                            <h4> <i class="fas fa-map-marker-alt"></i>Ariyaman Beach</h4>
+                            <p>
+                    One of the serene beaches in Rameshwaram attracts people from all walks of life. The picturesque water and enthusiastic water sports make it an ideal location for short day trips. This is one of the best tourist spots in Rameshwaram dotted with tall, beautiful trees. One can enjoy boating, parasailing, and many other adventure sports on the beach.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="images/ram6.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Annai Indira Gandhi Road Bridge</h4>
+                            <p>
+                        One of the spectacular bridges of India is the best example of architectural marvel and excellence. Even though the bridge is built in the most corrosive environment and cyclone prone high-wind velocity zone, it still stands tall and strong. It is claimed to be India’s first sea bridge. Also called “Pamban Bridge”, it is the longest bridge in Southern India.
+                        
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

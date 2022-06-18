@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+                background: var(--orange);
+                color: #fff;
+            }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+                font-size: 3.5rem;
+                background: rgba(255, 165, 0, 0.2);
+                color:var(--orange);
+                border-radius: .5rem;
+                padding: .2rem 1rem;
+            }
+            .heading1 span.space {
+                background: none;
+            }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .packages1 .box-container .box {
+                flex: 1 1 30rem;
+                border-radius: .5rem;
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+            }
+
+        .packages1 .box-container .box img {
+                    height: 26rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+        .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+        .packages1 .box-container .box .content {
+                    padding: 2rem;
+                }
+
+        .packages1 .box-container .box .content h3 {
+                        font-size: 3rem;
+                        color: #333;
+                    }
+
+        .packages1 .box-container .box .content h3 i {
+                            color: var(--orange);
+                        }
+
+        .packages1 .box-container .box .content .stars i {
+                        font-size: 1.7rem;
+                        color: var(--orange);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+                background: rgba(255, 165, 0,.2);
+                color: var(--orange);
+            }
+        </style>
+        </head >
+        <body >
+        <header >
+        <section class="packages1" id="packages1" >
+
+
+        <h1 class="heading1" >
+        <span > k</span >
+        <span > a</span >
+        <span > r</span >
+        <span > n</span >
+        <span > a</span >
+        <span > t</span >
+        <span > a</span >
+        <span > k</span >
+        <span > a</span >
+        </h1 >
+        <h2 class="heading1" >
+        <span > v</span >
+        <span > i</span >
+        <span > s</span >
+        <span > i</span >
+        <span > t</span >
+        <span > i</span >
+        <span > n</span >
+        <span > g</span >
+        <span class="space" > </span >
+        <span > p</span >
+        <span > l</span >
+        <span > a</span >
+        <span > c</span >
+        <span > e</span >
+        <span > s</span >
+
+        </h2 >
+        <div id="d1" >
+
+        <div class="box-container" >
+
+            <div class="box">
+                <img src="images/s1.jpg" alt="" >
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"> </i> Mysore </h3>
+
+                    <div class="stars">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="far fa-star"> </i>
+
+                    </div>
+                    <!-- <div class="price" > Rs.3600 <span > Rs.4500 </span > </div >-->
+                    <a href="mysore.html" class="btn"> Explore Mysore</a>
+                </div>
+            </div>
+
+        <div class="box" >
+        <img src="images/s2.jpg" alt="" >
+        <div class="content" >
+        <h3 > <i class="fas fa-map-marker-alt" > </i > badami</h3 >
+
+        <div class="stars" >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="far fa-star" > </i >
+        </div >
+        <!-- <div class="price" > Rs.3000 <span > Rs.4000</span > </div >-->
+        <a href="badami.html" class="btn" > Explore badami</a >
+        </div >
+        </div >
+        
+        <div class="box" >
+        <img src="images/ss3.jpg" alt="" >
+        <div class="content" >
+        <h3> <i class="fas fa-map-marker-alt"> </i> Bangalore</h3>
+
+        <div class="stars" >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="far fa-star" > </i >
+        </div >
+        <!-- <div class="price" > Rs.3000 <span > Rs.4000</span > </div >-->
+        <a href="bangalore.html" class="btn"> Explore Bangalore</a>
+        </div >
+        </div >
+        
+        <div class="box" >
+        <img src="images/s4.jpg" alt="" >
+        <div class="content" >
+            <h3> <i class="fas fa-map-marker-alt"> </i>Coorg </h3>
+
+        <div class="stars" >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="far fa-star" > </i >
+        </div >
+        <!-- <div class="price" > Rs.3000 <span > Rs.4000</span > </div >-->
+        <a href="coorg.html" class="btn"> Explore Coorg</a>
+        </div >
+        </div >
+       
+        <div class="box" >
+        <img src="images/s5.jpg" alt="" >
+        <div class="content" >
+         <h3> <i class="fas fa-map-marker-alt"> </i>  Kabini</h3>
+
+        <div class="stars" >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="far fa-star" > </i >
+        </div >
+        <!-- <div class="price" > Rs.3000 <span > Rs.4000</span > </div >-->
+        <a href="kabini.html" class="btn"> Explore  Kabini</a>
+        </div >
+
+        </div >
+
+        <div class="box" >
+        <img src="images/s6.jpg" alt="" >
+        <div class="content" >
+            <h3> <i class="fas fa-map-marker-alt"> </i> Mangalore </h3>
+
+        <div class="stars" >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="fas fa-star" > </i >
+        <i class="far fa-star" > </i >
+        </div >
+        <!-- <div class="price" > Rs.3000 <span > Rs.4000</span > </div >-->
+        <a href="mangalore.html" class="btn"> Explore Mangalore</a>
+        </div >
+        </div >
+
+        </div>
+        </div>
+    </section>
+   </header>
+ </body>
+ </html>

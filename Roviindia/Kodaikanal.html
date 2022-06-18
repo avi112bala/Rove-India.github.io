@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">
+                        <span>K</span>
+                        <span>o</span>
+                        <span>d</span>
+                        <span>a</span>
+                        <span>i</span>
+                        <span>k</span>
+                        <span>a</span>
+                        <span>n</span>
+                        <span>a</span>
+                        <span>l</span>
+                </h2>
+
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/kod1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kodaikanal Lake</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                            Kodaikanal Lake is a manmade lake in the Kodaikanal city which is also known as Kodai Lake. Vera Levinge was the 
+                            man responsible for the creativity and resources of this lake amidst Kodaikanal town. This lake was developed by 
+                            the British and early missionaries from the USASA.The star-shaped lake is centrally located in Kodaikanal and is
+                             surrounded by the rich green Palani Hills Range the main watershed for the lake. The lake is situated at an 
+                             elevation of 2285m above sea level and has an average depth of 3.0m. The lake is at a distance of 3 km from the 
+                             Kodai Bus stand.      
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/kod2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Bear Shola Falls</h4>
+                            <p>
+                            Located at a mere distance of 2 kilometres from the Kodaikanal Lake, the Bear Shola Falls is a popular picnic spot 
+                            in the region. This cascade is a seasonal attraction that comes to life in its fullest during the monsoons. An 
+                            interesting legend behind the unique name of this place is that it was a favourite haunt of a bear who used to 
+                            frequent this water body to drink water, hence imparting it the name Bear Shola Falls.
+                            Wrapped with dense forests coupled with the chirping of birds, Bear Shola Falls is a little heaven.As you
+                             approach the falls, you will encounter the hill path where you can reach by means of a motored vehicle.        
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kod3.jpg" alt="">
+                        <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Pillar Rocks
+                        </h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                            Situated in the 'Princess of Hill stations', Kodaikanal, the Pillar Rocks have become a lovely picnic spot. 
+                            Constituting a beautiful mini garden; the place is named so as it has three vertically positioned boulders reaching
+                             up to a height of 400 feet. The aura here is full of affection and is evidence of a great love story. The 'white 
+                             cross' which once existed on these rocks represented David Gell's excellent tribute to love. The view of rocks is 
+                             not something to be missed. They stand as an untouched miracle for the tourists visiting Kodaikanal.
+                             The pillars are famous for providing bird's view of nearby surroundings. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kod4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Thalaiyar Falls</h4>
+                            <p>
+                            Also known as Rat Tail Falls, Thalaiyar Falls is located in the lush green slopes of Palani Hill ranges in the Dindigul
+                             District, in Kodaikanal. With a height of 297m, it is the highest waterfall in Tamil Nadu, the sixth highest waterfall 
+                             in India. There is a view tower in the park at the Dum Dum Rock, from where you can get a beautiful view of the falls 
+                             and the Manjalar Dam. There is a hiking route near the waterfall.The river water coming to the falls is from 
+                             Perumal Malai village, through a 9 km downstream and is said to be clear.On the contrary, it may be polluted, and hence, 
+                             visitors to the area are advised to avoid drinking it.    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/kod5.jpg">
+                        <div class="content">
+
+                            <h4> <i class="fas fa-map-marker-alt"></i>Kurinji Temple</h4>
+                            <p>
+                            Kurunji Temple is mainly dedicated to Lord Murugu and is dexterously based at a distance of 3 km from the lake. 
+                            Providing delightful views of small villages, Palani Hills and Northern plains, and carrots plantation on the 
+                            terraced slopes, the temple is also associated with the Kurunji Flower which blooms once in 12 years carpeting the
+                             whole area with purple flowers.According to the authorities, the flower will next bloom in the year 2018. The 
+                             temple complex also includes a park and a small shrub garden area.   .
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="images/kod6.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Silver Cascade Falls</h4>
+                            <p>
+                            The perfect stop over in-between a long journey, these silver cascade falls demand your attention while you travel
+                             from Kodaikanal till Madurai. The Silver Cascade Falls formed as a result of the over flowing of the famous 
+                             man-made Kodai Lake, are the perfect way to have a break while on a long road trip. One can also take a swim in
+                              the waters of the waterfall provided the temperature is right.    
+                            The fruit sellers selling exquisite, mouth watering fruits which you can buy and enjoy under the falls is an experience unmatched.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+                 .packages1 .box-container .box video {
+                    height: 25rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+               <h2>
+               <h1 class="heading1">
+                <span>v</span>
+                <span>r</span>
+                <span>i</span>
+                <span>n</span>
+                <span>d</span>
+                <span>a</span>
+                <span>v</span>
+                <span>a</span>
+                <span>n</span>
+              </h2> 
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/vrindavan1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Banke Bihari Mandir</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        Shri Banke Bihari Mandir is a Hindu temple dedicated to Lord Krishna in the holy city of Vrindavan in the Mathura 
+                        district. One of the most revered shrines in the country, this temple is among the 7 temples of Thakur of Vrindavan 
+                        which also include Sri Radhavallabh Ji, Shri Govind Dev Ji and four others. As you come in the presence of the Banke 
+                        Bihari Temple, you are confronted with the stunning Rajasthani- style edifice of the temple, which is adorned with 
+                        arched windows and meticulous stonework. The image of Lord Krishna in the temple appears in the form of a child and is
+                        seen standing in the Tribhanga position. One interesting fact about the Banke Bihari temple is that there are no bells 
+                        or conchs in the premises, as the Lord does not like the sound of these instruments. Divine invocations are performed by
+                         peaceful chants of 'Radha Naam'.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                <img src="images/vrindavan2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Prem Mandir</h4>
+                       <p>
+                        Imbued with elegance and grandeur, the Prem Mandir is a massive temple that was shaped by Jagadguru Shri Kripaluji
+                        Maharaj in the year 2001. Known as "Temple of God's love", this grand religious place is dedicated to Radha Krishna as 
+                        well as Sita Ram. Located in Vrindavan, the holy city in the district of Mathura in Uttar Pradesh, the temple is 
+                        enveloped with piousness and serenity. This newly constructed temple is the most beautiful in the entire Brij area and 
+                        is crowded with devotees during the time of the Aarti.
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                <img src="images/vrindavan3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Nidhivan</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                        Nidhivan, a temple nestled in the holy birthplace of Krishna, Vrindavan has a sense of mystery or miracle attached to 
+                        it. Nidhivan has a hearsay that Lord Krishna visits it every night. And that's not about it, there is also a buzz that
+                         he performs Ras Leela every night.There is no sighting of any animal or bird post 7 PM either because it is said that 
+                        they elope from the area as well. Not just this, but Nidhivan has a unique surrounding. It is flanked by unusual hollow
+                        trees that are short heightened and the branches are twisted downwards and lie in tangles. The Tulsi plants also stand
+                         in pairs. It's hard to believe in these mysteries but the strong reasons somehow hold our beliefs in the speculation. 
+                         People residing here close down their windows and doors after the evening Aarti bells. 
+                             
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                <img src="images/vrindavan4.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>ISKCON Vrindavan</h4>
+                        <p>
+                        Also known as Sri Sri Krishna Balaram Mandir, ISKCON Vrindavan is a dream fulfilled of Swami Prabhupada ,who wished to 
+                        build a temple for the brothers - Krishna and Balaram - in the same holy city where they played together several 
+                        centuries ago. Located in the Raman Reti area of Vrindavan, ISKCON temple has become the major attraction in the city 
+                        and is thronged by devotees from nearby Delhi and all over the world. People visiting the divine temple are spellbound
+                        by the Aarti and Bhagavad Geeta classes held here every day.The three altars at ISKCON Vrindavan are the seats of Sri 
+                        Sri Gaura Nitai, Shri Krishna and Balaram and Sri Sri Radha Shyamasundara along with Lalita and Vishakha. The presiding
+                        deity of the temple, however, is Lord Krishna-Balaram. There are two idols on the central slab of the temple which 
+                        depict Krishna and Balarama, who were brothers. On the right dais are the idols of their friends.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/vrindavan5.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Barsana</h4>
+                        <p>
+                        Barsana is a place of historical significance which is located in the district of Mathura at Uttar Pradesh, India. The 
+                        town is nicknamed as the Birthplace of Radha Rani as the Hindu goddess Radha was born in this city. Barsana is also 
+                        popular for the grand celebration performed during the Holi festival, known as the Lathmar Holi. Barsana is also called 
+                        as Vrishabhanupura, named after the founder Vrishabhanu Maharaj, who is the father of Shri Radha. The town has many
+                        places of visit which are of religious and ancient significance. It is surrounded by many places where Goddess Radha 
+                        spent her times with her Sakhis and Lord Krishna.The beautiful city is situated around two hills, namely, Brahma Hill
+                        and Vishnu Hill, which have four peaks in the region of Braj. According to popular beliefs, these peaks are the heads of
+                         Lord Brahma. Each of these peaks has a temple which are of religious significance.  
+                        </p>
+                    </div>
+
+                </div>
+           
+            <div class="box">
+            <img src="images/vrindavan6.jpg" alt="">
+                <div class="content">
+                    <h4> <i class="fas fa-map-marker-alt"></i>Mathura</h4>
+                    <p>
+                    One of Hinduism's seven sacred cities, Mathura is the birthplace of the very beloved Lord Krishna. Located in the state of
+                    Uttar Pradesh, Mathura and Vrindavan are often considered twin cities . Mathura is a small town dotted with temples from 
+                    various ages and attracts a horde of pilgrims from all over the world.Shri Krishna Janmabhumi is the most famous tourist 
+                    attraction in Mathura, as this place is believed to the be the exact place where Lord Krishna was born, and the prison where he was born is
+                  now on display for tourists to see.  The two most important temples in town are the Dwarkadheesh Temple and the Gita Mandir.
+                    </p>
+                    <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                </div>
+            </div>
+
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

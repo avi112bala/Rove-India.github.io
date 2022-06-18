@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>                                                               
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">        
+                <span>K</span>
+                <span>o</span>
+                <span>z</span>
+                <span>h</span>
+                <span>i</span>
+                <span>K</span>
+                <span>o</span>
+                <span>d</span>
+                <span>e</span>
+                </h2>
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/ko1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Backwaters in Kozhikode</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        Located on the northern side of the scenic state of Kerala, Kozhikode has always been a popular destination for its
+                        backwaters. These backwaters are a distinctive feature of this area and have been generously blessed with abundant
+                        natural beauty, dense greenery and exotic flora and fauna. The palm-fringed rivulets, lakes and canals of Kozhikode are
+                        decked with engaging beauty.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/ko2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Thikkoti Light House</h4>
+                        <p>
+                        Said to be built on the remains of a shipwreck, the Thikkoti Lighthouse is one of the major attractions of Kozhikode.
+                        Located on a rocky shoreline, the place is best known for the scenic views it offers as well as several species of
+                        nomadic birds.
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/ko3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Beypore Beach</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+                          Beypore Beach is a beautiful beach on the western coastline of India. It is located about 10 kilometres from Kozhikode in God's Own Country, Kerala. The beach is located at the mouth of River Chaliyar and is a famous beach destination all across the world. The beautiful skies over the pristine sea and the long stretch of golden sand and the tall coconut trees make for a fabulous vacation destination in Kerala. Sunsets are a special treat to the eyes here after a long stroll. Morning people can go jogging on the smooth golden sand and follow it by a variety of activities by the seashore like water sports, local breakfast or laze in the sand till day calls for a scrumptious Kerala Lunch. There is something for everyone hereBeypore Beach is a beautiful beach on the western coastline of India. It is located about 10 kilometres from Kozhikode
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/ko4.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Kallai River</h4>
+                        <p>
+                        Now reminiscent of the bygone era of timber trade, the Kallai river once fed the timber hub- the second largest timber
+                        trading centre in Asia after Japan.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/ko5.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Kozhikode Beach</h4>
+                        <p>
+                            Kozhikode Beach is also known as the Calicut Beach and is situated on the Malabar Coast. The beach road was named as
+                            'Gandhi Road' after Mahatma Gandhi paid a visit to Calicut in 1934. The place has always been prominent for hosting
+                            public meetings. It has a long drive from Beypore in the south to Kappad in the north. The beach is ideal for witnessing
+                            the orange sunsets in Calicut.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/ko6.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Elathur</h4>
+                        <p>
+                            Surrounded by a lake on one side, and a river on the other, Elathur is a quaint little village with serene surroundings.
+                            The place is also a paradise for seafood lovers as you will be served with some of the best seafood, fresh-water fishes
+                            and toddy to complete the beach-side experience.</p>
+                    </div>
+                </div>
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <h5 class="heading1">
+                    <span>M</span>
+                    <span>y</span>
+                    <span>s</span>
+                    <span>o</span>
+                    <span>r</span>
+                    <span>e</span>
+                </h5>
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/mys1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Mysore Palace</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                                An incredibly breathtaking example of Indo - Saracenic style of architecture, the Mysore Palace is a magnificent edifice
+                                located in Mysore in the state of Karnataka. Also known as the Amba Vilas Palace, it is the former palace of the royal
+                                family of Mysore and is still their official residence. Mysore Palace was built in the year 1912 for the 24th Ruler of
+                                the Wodeyar Dynasty and is counted amongst one of the biggest palaces in the country.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/mys2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Mysore Zoo</h4>
+                            <p>
+                        Sri Chamarajendra Zoological Gardens, also known as the Mysore Zoo is one of the best zoological gardens in India.Maharaja Chamaraja Wodeyar established this Zoo in the year 1892 for the Royals. Furthermore, after the attainment of freedom, it was handed over to the Department of Parks and Gardens of the State Govt. The Zoo's meticulous planning is responsible for making it a special zoological garden. It tends to create a natural habitat for the animals in it. From Big to small cats, Aquatic to terrestrial birds, and Primates to reptiles, one Hundred and Sixty-Eight species find their place in this zoo. The world's first caesarian section delivery performed on an elephant in Mysore zoo gave it global fame and recognition.
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/mys3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Somanathapura Temple</h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                    On the banks of Holy river Kaveri is a tiny tranquil town of Somanathapura. Here stands the finest and most exemplary monument of Hoysala architecture known as the famous Prasanna Chennakesava Temple or simply the Kesava Temple.Consecrated in the year 1258 CE, it is a Vaishnav Hindu Temple dedicated to might and beauty of Lord Krishna .Tourists from near and far come to visit the temple to get a view of the beautiful
+                    place. The Chennakesava temple is one of the 1500 Temples built by the Hoysala Empire kings in different parts of their kingdom, and is said to be the climax development in Hoysala temple style and yet is unique in many other ways.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/mys4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Karanji Lake</h4>
+                            <p>
+                        Karanji Lake, also known as the fountain lake, is a popular picnic spot. Visitors are allowed to bring packed food, and there is a coffee shop as well. It is a beautiful place to explore the different species of birds as the lake exhibits as many as 147 species including herons, Asian openbill storks, cormorant, grey pelican, etc.The Karanji lake is said to possess the largest aviary in the country. Its set up cost was nearly 3.8 million, and it measures 20m in length, 50m in breadth and has a height of 60m. There is a waterfall too with two water bodies alongside. The lake also consists of a butterfly park which is home to more than 45 species of beautiful butterflies fluttering their wings and flying around in brilliant colours.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/mys5.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Ranganathittu Bird Sanctuary</h4>
+                            <p>
+                        Located in Karnataka, the Ranganathittu Bird Sanctuary in Srirangapatna is a haven for bird watchers as it houses a wide array of bird species. It is the largest bird sanctuary in the state and comprises of six small islands on the banks of the river Kaveri. The scenery of the local vegetation and landscape, coupled with the colourful species of birds makes it a unique learning experience for visitors of all ages and interests. This destination offers many things to do for its tourists; the most popular ones include bird watching, boating, and some good old nature photography.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/mys6.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Trinesvaraswamy Temple</h4>
+                            <p>
+                                This ancient temple is located outside the Mysore Fort, the main deity being Trinesvara i.e. the three eyed Shiva. The gopura of this temple was destroyed in the 18th century, but the beauty of the Dravidian architecture is still on
+                                display here.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>

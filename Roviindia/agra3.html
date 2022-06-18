@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+    
+        :root {
+            --orange: #ffa500;
+        }
+    
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+    
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+    
+        #d1 {
+            overflow-x: hidden;
+        }
+    
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+    
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+    
+        .heading1 span.space {
+            background: none;
+        }
+    
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+    
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+    
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+    
+        .packages1 .box-container .box video {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+    
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+    
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+    
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+    
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+    
+        }
+    
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+    
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+    
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <span>A</span>
+                <span>g</span>
+                <span>r</span>
+                <span>a</span>
+            </h1>
+           
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                            <img src="images/agra1.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Taj mahal </h4>
+                            <p>
+                                One of the seven wonders of the world, Taj Mahal is located on the banks of River Yamuna in Agra. It was built by the Mughal Emperor Shah Jahan as a memorial for his third wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan himself. Constructed entirely out of white marble in the 17th century, Taj Mahal is one of the most beautiful monuments in the world. Every year 
+                                visitors numbering more than the entire population of Agra pass through the magnificent gates to catch a glimpse of this breathtaking monument!
+                            </p>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                           
+                        </div>
+
+                    </div>
+                   
+                   
+                    <div class="box">
+                        <img src="images/agra2.jpg" alt="">    
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Agra Fort </h4>
+                            <p>Also known as Lal Qila, Fort Rouge or Red Fort of Agra, the Agra Fort is a UNESCO world heritage site. It is situated at a distance of about 2.5km northwest of the famous Taj Mahal. 
+                            The construction of the massive fort of red sandstone by the banks of Yamuna river was started by emperor Akbar.Also known as Lal Qila, Fort Rouge or Red Fort of Agra, the Agra Fort is a UNESCO world heritage site. It is situated at a distance of about 2.5km northwest of the famous Taj Mahal. The construction of the massive fort of red sandstone by the banks of Yamuna river was started by emperor Akbar.</p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        </div>
+                    </div>
+                   
+                   
+                    <div class="box">
+                        <img src="images/agra3.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Itimad-ud-Daulah's Tomb</h4>
+                            <p>On the banks of the Yamuna River sits another one of Agra's exquisite structures:         Itimad-ud-Daulah's Tomb. The mausoleum contains the remains of Mirza Ghiyas Beg, a Persian official who served the Mughal empire, as well as his wife. Legend has it that this jewelry box-like tomb was actually the inspiration for the Taj Mahal, earning it the nickname "Baby Taj." The red sandstone and marble structure features 
+                             13-meter-high hexagonal towers on each corner.The most noteworthy thing about this attraction, though, is that it 
+                             was the first structure to use pietra dura, the iconic Indian inlay technique that uses semiprecious stones to 
+                             create decorative floral designs in marble. </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                   
+                   
+                    <div class="box">
+                    <img src="images/agra4.jpg" alt="">
+                        
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Chini ka Rauza</h4>
+                            <p>After visiting Itimad-ud-Daulah's Tomb, head one kilometer north to see Chini ka Rauza, a funerary monument that 
+                                houses the tomb of Afzal Khan Shirazi, who served as the prime minister for Mughal Emperor Shah Jahan.
+                                While not nearly as well preserved as other attractions in Agra, the Indo-Persian structure is noteworthy for 
+                                being the first monument to feature chini, a distinctive decoration made from turquoise, yellow, green, and 
+                                orange glazed tiles. As the name of the building suggests, each of its tiles were imported from China–an 
+                                impressive feat during the 17th century, when this monument was constructed. Step inside Chini ka Rauza to see 
+                                an array of detailed paintings and Islamic inscriptions. After visiting the Chini ka Rauza, you can take a 
+                                10-minute walk south to see the ruins of the Tomb of Sultan Parwiz, who was the brother of Shah Jahan.</p>
+                            
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <img src="images/agra5.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Akbar's Tomp</h4>
+                            <p>
+                                The final resting place of Mughal Emperor Akbar, Akbar's Tomb is situated in Sikandra, the outskirts of Agra and spreads
+                                over an area of 119 acres. An important architectural masterpiece of the Mughal era, it was built between 1605 and 1618.
+                                Built entirely out of sandstone and white marble, Emperor Akbar himself oversaw the construction of this tomb until his
+                                death. Unlike the other tombs of famous Muslim kings around the world, the Tomb of Akbar faces towards the rising sun
+                                instead of Masjid of Mecca
+                            </p>
+                            
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                         </div>
+ 
+                     </div>
+
+                 <div class="box">
+                    <img src="images/agra6.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i> Fatehpur Sikri</h4>
+                            <p>
+                                Just an hour's drive from the Taj Mahal, Fatehpur Sikri makes for a worthwhile day trip from Agra. The city, once the capital of the Mughal
+                             Empire some 500 years ago, was built by Akbar as a salute to the famous Sufi saint, Shaikh Salim Chishti, who accurately predicted the 
+                             birth of an heir. 
+                                Residents abandoned the city not long after it was built, when water supplies ran too low.
+                            </p>
+                        
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <a href="#"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+</html>

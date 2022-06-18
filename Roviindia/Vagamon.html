@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+         :root {
+             --orange: #ffa500;
+         }
+
+         * {
+             font-family: 'Nunito', sans-serif;
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-transform: capitalize;
+             outline: none;
+             border: none;
+             text-decoration: none;
+             transition: all .2s linear;
+         }
+
+         *::selection {
+                 background: var(--orange);
+                 color: #fff;
+             }
+         #d1 {
+             overflow-x:hidden;
+         }
+         .heading1 {
+             text-align: center;
+             padding: 2.5rem 0
+         }
+         .heading1 span {
+                 font-size: 3.5rem;
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+                 border-radius: 0.5rem;
+                 padding: 0.2rem 1rem;
+             }
+        .heading1 span.space{
+             background:none;
+         }
+
+         .packages1 .box-container {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 2rem;
+         }
+
+         .packages1 .box-container .box {
+                 flex: 1 1 30rem;
+                 border-radius: .5rem;
+                 box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+         }
+
+         .packages1 .box-container .box img {
+                     height: 25rem;
+                     width: 100%;
+                     object-fit: cover;
+                 }
+
+         .packages1 .box-container .box .content {
+                     padding: 2rem;
+                 }
+
+         .packages1 .box-container .box .content h4 {
+                         font-size: 2rem;
+                         color: #333;
+                     }
+
+          .packages1 .box-container .box .content h3 i{
+                         color: var(--orange);
+                     }
+          .packages .box-container .box .content p{
+            font-size:1.7rem;
+            color:#666;
+             padding:1rem 0;
+          
+            }
+        p{
+            display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }         
+         .btn {
+             display: inline-block;
+             margin-top: 1rem;
+             background: var(--orange);
+             color: #fff;
+             padding: .8rem 3rem;
+             border: .2rem solid var(--orange);
+             cursor: pointer;
+             font-size: 1.7rem;
+         }
+         .btn:hover {
+                 background: rgba(255, 165, 0,.2);
+                 color: var(--orange);
+             }
+
+
+     </style>
+</head>
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>                                                               
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <span>V</span>
+                <span>a</span>
+                <span>g</span>
+                <span>a</span>
+                <span>m</span>
+                <span>o</span>
+                <span>n</span>
+            </h1>
+          <div id="d1">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/va1.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Ulipooni Wildlife Sanctuary</h4>
+                        <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                        <p>
+                        Located 10km away from Vagamon, Ulipooni makes up for a perfect picnic spot. It is away from the noisy crowd of the city, you might spot couples
+                         boating here.It is a peaceful romantic destination, a good place to spend a day with your family or spouse.      
+                        </p>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="images/va2.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Vagamon Meadows</h4>
+                        <p>
+ The lush green grassland of Vagamon, just being there, surrounded by the hills of Vagamon, greenery, cool breeze which will take away your 
+ worries and stress as they blow by you.                                                            
+                       </p>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/va3.jpg" alt="">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Vagamon Falls</h4>
+                        <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        <p>
+Amidst dense vegetation and beautiful surroundings, Vagamon Falls is a famous picnic spot. The sight of the waterfall gushing down the slopes is
+ a treat to the eyes and the scenic beauty a paradise for photographers. The waterfall is also called Palaruvi and is a perfect attraction for 
+ nature lovers.                        
+                             
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/va4.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Pattumala Church</h4>
+                        <p>
+Pattumalai Church, a marvellous Roman Catholic Latin Rite Church, was designed by J P Bright. The architectural beauty of the structure amidst
+ lush green tea plantations is a visual treat. In fact, the name ÐPattumalaiÓ, meaning a hill covered with silk, is an apt description of the 
+ attraction which is situated on an elevation and offers a splendid view of the plantations down the slope.                       
+ </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/va5.jpg">
+                    <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Mundakayam Ghat</h4>
+                        <p>
+                        Mundakayam Ghat is a ghat passing through a mesmerizing terrain in the region. It is famous for bird watching and nature
+                        walks. One can get a beautiful top view of the scenic location as well. The terrain also makes the ghat an apt location
+                        for paragliding.
+                        </p>
+                    </div>
+                </div>
+            <div class="box">
+                <img src="images/va6.jpg">
+                <div class="content">
+                    <h4> <i class="fas fa-map-marker-alt"></i>Marmala Waterfalls</h4>
+                    <p>
+                        Located at a distance of few kms from Erattupetta in Kottayam inside a private rubber estate, Marmala Waterfalls are
+                        popularly known as the ‘enchantress of the jungle’. Plummeting from a height of 200 feet, the unblemished clear waters
+                        create an aura of mist around them. The tantalising waterfalls splash into a 12 feet pond and run down to join the river
+                        Teekoy.
+                    </p>
+                </div>
+            </div>
+          </div>
+         </div>
+        </section>>
+    
+    </header>
+</body>
+</html>

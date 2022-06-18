@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+        :root {
+            --orange: #ffa500;
+        }
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            transition: all .2s linear;
+        }
+
+        *::selection {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        #d1 {
+            overflow-x: hidden;
+        }
+
+        .heading1 {
+            text-align: center;
+            padding: 2.5rem 0
+        }
+
+        .heading1 span {
+            font-size: 3.5rem;
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+            border-radius: 0.5rem;
+            padding: 0.2rem 1rem;
+        }
+
+        .heading1 span.space {
+            background: none;
+        }
+
+        .packages1 .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .packages1 .box-container .box {
+            flex: 1 1 30rem;
+            border-radius: .5rem;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+        }
+
+        .packages1 .box-container .box img {
+            height: 25rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .packages1 .box-container .box .content {
+            padding: 2rem;
+        }
+
+        .packages1 .box-container .box .content h4 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .packages1 .box-container .box .content h3 i {
+            color: var(--orange);
+        }
+
+        .packages .box-container .box .content p {
+            font-size: 1.7rem;
+            color: #666;
+            padding: 1rem 0;
+
+        }
+
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            background: var(--orange);
+            color: #fff;
+            padding: .8rem 3rem;
+            border: .2rem solid var(--orange);
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+
+        .btn:hover {
+            background: rgba(255, 165, 0, .2);
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="packages1" id="packages1">
+
+
+            <h1 class="heading1">
+                <span>W</span>
+                <span>e</span>
+                <span>l</span>
+                <span>c</span>
+                <span>o</span>
+                <span>m</span>
+                <span>e</span>
+                <span class="space"></span>
+                <span>T</span>
+                <span>o</span>
+                <span class="space"></span>
+                <h2>
+                    <h1 class="heading1">
+                        <span>M</span>
+                        <span>a</span>
+                        <span>d</span>
+                        <span>u</span>
+                        <span>r</span>
+                        <span>a</span>
+                        <span>i</span>
+                </h2>
+
+            </h1>
+            <div id="d1">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <img src="images/madh1.png" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Meenakshi Amman Temple</h4>
+                            <!--<div class="price"> Rs.3600  <span> Rs.4500 </span> </div>-->
+                            <p>
+                            The historic Meenakshi Amman temple is located on the southern bank of the Vaigai River, Madurai, Tamil Nadu. Built
+                             sometime between the year 1623 and 1655, the wonderful architecture of the place is renowned globally. Meenakshi 
+                             Temple is primarily dedicated to Parvati, known as Meenakshi, and her spouse, Shiva. What makes this temple 
+                             different from the others is the fact that both God and Goddess are worshipped together.The most striking feature 
+                             of the temple is its exquisite facade, which has highly minute details with great art pieces incorporated in the 
+                             walls and pillars.       
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <img src="images/madh2.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Thirumalai Nayakar Mahal</h4>
+                            <p>
+                            Thirumalai Nayakar Palace was erected in 1636 AD in the city of Madurai, by King Thirumalai Nayak. The palace 
+                            depicts the perfect blend of Dravidian and Rajput styles. After Independence, this palace was declared as a 
+                            national monument and till date continues to be one of the spectacular monuments of Southern India. The magnificent
+                             palace is located in the vicinity of the very famous Meenakshi Amman Temple. Depicting the Saracenic style of 
+                             architecture, it was constructed during the rule of Nayak Dynasty and is widely considered as the most illustrious 
+                             monument built by the Madurai Nayak Dynasty.            
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/madh3.jpg" alt="">
+                        <div class="content">
+                        <h4> <i class="fas fa-map-marker-alt"></i>Gandhi Museum
+                        </h4>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                            <p>
+                            The Gandhi Memorial Museum serves as a remembrance and tribute to the efforts of our very own father of the nation, 
+                            Mahatma Gandhi. Established in 1959 in his cherished memory, eleven years after his demise, it is one of the few 
+                            Gandhi Museums in the country. Located in the heart of Madurai, the museum houses a wealth of remarkable mementoes 
+                            associated with Indian history such as the bloodstained cloth Gandhi was wearing when he was assassinated in 1948. 
+                            It is one of the five great Gandhi Museums in the country which depict the life of the Father of the nation and
+                             India's freedom struggle from 1757 until 1947.              
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/madh4.jpg">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Athisayam</h4>
+                            <p>
+                            Located on the Madurai - Dindigul National Highway near Madurai, Athisayam is a massive water cum amusement park. 
+                            Sprawling over a vast 70 acres of land, the park boasts of a total of 40 games and 20 water rides. The park also has
+                             a 7D theatre, an eatery and a recreation garden for kids.  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/madh5.jpg">
+                        <div class="content">
+
+                            <h4> <i class="fas fa-map-marker-alt"></i>ISKCON Madurai</h4>
+                            <p>
+                            Situated in the Mani Nagaram Main Road in Madurai, ISKCON Madurai is a revered Hindu temple dedicated to Lord 
+                            Krishna and his consort Goddess Radha. The temple reverberates with mantras and songs at all times and devotees are
+                             fed with prasad. The premises also has a pure veg tiny eatery for the devotees and other visitors.      .
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <img src="images/madh6.jpg" alt="">
+                        <div class="content">
+                            <h4> <i class="fas fa-map-marker-alt"></i>Vaigai Dam</h4>
+                            <p>
+                            Vaigai Dam, a magnificent human-made structure, is constructed over River Vaigai near Andipatti, Theni District in 
+                            the South Indian State of Tamil Nadu. Andipatti lies about 70 kilometres from Madurai and travellers on their way to
+                             Periyar Wildlife Sanctuary often visit this massive and wondrous dam. Over the years, the site has become a 
+                             favourite picnic spot as it gets beautifully illuminated in the evenings especially on weekends, and one can spend
+                              hours admiring the splendid view. The soft and warm sunrises by the reservoir are worth experiencing too.
+                            On one side of the dam is a beautiful garden known as Little Brindavan maintained by the management for the visitors. 
+                            </p>
+                            <!--<div class="price"> Rs.3000 <span> Rs.4000</span> </div>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>>
+
+    </header>
+</body>
+
+</html>
